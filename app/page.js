@@ -429,6 +429,14 @@ export default function Home() {
               <span style={{ color: "var(--spark)", fontSize: ".9rem" }}>Read article →</span>
             </div>
           </a>
+          <a href="/blog/digital-marketing-cost-pakistan-2026" className="reveal" style={{ textDecoration: "none" }}>
+            <div className="svc-card" style={{ height: "100%" }}>
+              <span className="eyebrow" style={{ marginBottom: 12 }}>Price Guide</span>
+              <h3>How Much Does Digital Marketing Cost in Pakistan? (2026)</h3>
+              <p>SEO, ads, social media and web dev pricing — plus what actually drives the price.</p>
+              <span style={{ color: "var(--spark)", fontSize: ".9rem" }}>Read article →</span>
+            </div>
+          </a>
         </div>
         <div className="reveal" style={{ textAlign: "center", marginTop: 36 }}>
           <a href="/blog" className="btn-outline">View All Articles</a>
