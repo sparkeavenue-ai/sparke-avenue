@@ -139,12 +139,13 @@ export default function Home() {
         <div className="hero-copy">
           <span className="eyebrow">Digital Marketing &amp; Creative Agency</span>
           <h1>
-            <span className="line"><span>IGNITE YOUR BRAND.</span></span>
-            <span className="line"><span className="accent">SPARK</span> YOUR GROWTH.</span>
+            <span className="line"><span>Digital Marketing Agency</span></span>
+            <span className="line"><span>in Pakistan That </span><span className="accent">Ignites</span><span> Brands.</span></span>
           </h1>
           <p>
-            Sparke Avenue combines high-level strategy, bespoke creative production, modern web technology,
-            and data-driven performance marketing to turn ambitious brands into category leaders.
+            Sparke Avenue is a full-service digital marketing company in Pakistan offering SEO services,
+            social media marketing, performance marketing, branding and web development — built to turn
+            ambitious brands into category leaders, in Pakistan and worldwide.
           </p>
           <div className="cta-row">
             <a href="#contact" className="btn">Start a Project →</a>
@@ -185,10 +186,11 @@ export default function Home() {
         <div className="about-wrap">
           <div className="about-header reveal">
             <span className="eyebrow">Who We Are</span>
-            <h2 className="section-title">We engineer digital identities that stand out, connect, and scale.</h2>
+            <h2 className="section-title">A Digital Marketing Company Built for Brands That Demand More</h2>
             <p className="about-lead">
-              Sparke Avenue is a full-service digital marketing and creative agency built for businesses that demand more than traditional agencies deliver.
-              We unite commercial strategy, premium creative, and conversion-first engineering to help brands show up with clarity and authority across every digital touchpoint.
+              Sparke Avenue is a digital marketing agency based in Pakistan, serving clients locally and worldwide.
+              As a full-service digital marketing company, we unite SEO, paid advertising, social media marketing,
+              premium creative and conversion-first web development to help brands show up with clarity and authority across every digital touchpoint.
             </p>
           </div>
 
@@ -301,7 +303,7 @@ export default function Home() {
         <div className="section-head reveal">
           <span className="eyebrow" style={{ justifyContent: "center" }}>What We Do</span>
           <h2 className="section-title">Our Core Services</h2>
-          <p>Eight specialized disciplines, one unified growth strategy — designed around where your brand needs to scale next.</p>
+          <p>Eight specialized digital marketing services — SEO, performance marketing, social media, branding, web development and more — one unified growth strategy designed around where your brand needs to scale next.</p>
         </div>
         <div className="bento">
           {SERVICES.map((s) =>
@@ -381,8 +383,8 @@ export default function Home() {
       <section id="contact" className="section">
         <div className="section-head reveal">
           <span className="eyebrow" style={{ justifyContent: "center" }}>Let&apos;s Connect</span>
-          <h2 className="section-title">Let&apos;s Spark Your Brand&apos;s Growth</h2>
-          <p>Ready to elevate your digital presence? Send us an inquiry for tailored marketing solutions and pricing.</p>
+          <h2 className="section-title">Work With a Digital Marketing Agency That Delivers ROI</h2>
+          <p>Ready to grow? Partner with a performance-driven digital marketing company in Pakistan — send an inquiry for tailored SEO, advertising and branding solutions with transparent pricing.</p>
         </div>
         <div className="contact-wrap">
           <div className="contact-info reveal">
