@@ -17,7 +17,7 @@ export default function SiteFooter() {
           </a>
         </div>
         &copy; 2026 Sparke Avenue. All rights reserved. —{" "}
-        <a href="mailto:hello@sparkeavenue.com">hello@sparkeavenue.com</a>
+        <a href="mailto:info@sparkeavenue.com">info@sparkeavenue.com</a>
       </footer>
     </>
   );
