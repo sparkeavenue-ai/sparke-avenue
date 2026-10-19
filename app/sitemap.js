@@ -10,6 +10,9 @@ export default function sitemap() {
     { path: '/services/content-creation', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/services/ecommerce-marketing', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/services/digital-strategy', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog', priority: 0.7, changeFrequency: 'weekly' },
+    { path: '/blog/choosing-digital-marketing-agency-pakistan', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/seo-vs-paid-ads-pakistan', priority: 0.7, changeFrequency: 'monthly' },
   ]
   return pages.map((p) => ({
     url: `https://sparkeavenue.com${p.path}`,
