@@ -4,6 +4,7 @@ export default function sitemap() {
     { path: '/portfolio', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/about', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
+    { path: '/contact', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/services/seo-services', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/services/performance-marketing', priority: 0.9, changeFrequency: 'monthly' },
     { path: '/services/social-media-marketing', priority: 0.9, changeFrequency: 'monthly' },
