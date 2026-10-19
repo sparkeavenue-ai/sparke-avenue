@@ -39,6 +39,8 @@ const INDUSTRIES = [
   { icon: "cart", title: "E-commerce & Retail", desc: "Full-funnel growth for online stores, from first click to repeat purchase." },
   { icon: "gear", title: "Manufacturing & B2B", desc: "Lead generation and authority building for industrial and B2B brands." },
   { icon: "instagram", title: "Fashion & Lifestyle", desc: "Content and commerce engines for consumer brands people love to follow." },
+  { icon: "pin", title: "Real Estate", desc: "Property marketing that sells before launch — from project branding to qualified buyer leads." },
+  { icon: "storefront", title: "Restaurants & Hospitality", desc: "Footfall and delivery orders through local SEO, food content and review management." },
 ];
 
 const FAQS = [
