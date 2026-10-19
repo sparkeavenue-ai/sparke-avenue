@@ -52,6 +52,15 @@ const FAQS = [
   { q: "Why choose a digital marketing agency in Pakistan?", a: "Local market understanding matters — buying behaviour, COD and WhatsApp commerce, festive seasonality. A Pakistan-based team plans around how your customers actually buy." },
 ];
 
+const TESTIMONIALS = [
+  {
+    quote: "We at Waheed Jewellers are very satisfied with the services of Sparke Avenue. Their team is professional, creative, and supportive. They have helped us with social media marketing and attractive promotional designs. Highly recommended for anyone looking to grow their business online!",
+    name: "Waheed Jewellers",
+    detail: "Jewellery \u2014 Social Media Marketing & Design",
+    stars: 5,
+  },
+];
+
 const AVENUE_PATH = "M40,470 C40,370 340,370 340,270 C340,170 40,170 40,70 C40,30 90,10 140,10";
 
 export default function Home() {
@@ -442,6 +451,30 @@ export default function Home() {
         </div>
         <div className="reveal" style={{ textAlign: "center", marginTop: 36 }}>
           <a href="/blog" className="btn-outline">View All Articles</a>
+        </div>
+      </section>
+
+      <div className="road-divider" />
+
+      {/* Testimonials Section */}
+      <section className="section">
+        <div className="section-head reveal">
+          <span className="eyebrow" style={{ justifyContent: "center" }}>Client Love</span>
+          <h2 className="section-title">What Our Clients Say</h2>
+        </div>
+        <div className="svc-grid">
+          {TESTIMONIALS.map((t) => (
+            <div className="svc-card reveal" key={t.name}>
+              <div style={{ color: "var(--spark)", fontSize: "1rem", letterSpacing: 2, marginBottom: 14 }}>
+                {"\u2605".repeat(t.stars)}
+              </div>
+              <p style={{ fontStyle: "italic", fontSize: "1rem", lineHeight: 1.7, marginBottom: 20 }}>&ldquo;{t.quote}&rdquo;</p>
+              <div>
+                <div style={{ color: "#fff", fontWeight: 700, fontFamily: "var(--font-display)" }}>{t.name}</div>
+                <div style={{ color: "var(--muted)", fontSize: ".85rem", marginTop: 4 }}>{t.detail}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
