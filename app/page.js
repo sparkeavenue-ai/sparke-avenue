@@ -71,6 +71,12 @@ const TESTIMONIALS = [
     detail: "Industrial Manufacturing \u2014 Digital Marketing Services",
     stars: 5,
   },
+  {
+    quote: "Zarnoor Collection is pleased with the services of Sparke Avenue. Their team is creative, professional, and understands our brand\u2019s needs. From social media management to attractive designs, they provide quality work and great support. Highly recommended for businesses looking to grow online!",
+    name: "Zarnoor Collection",
+    detail: "Fashion & Lifestyle \u2014 Social Media Management & Design",
+    stars: 5,
+  },
 ];
 
 const AVENUE_PATH = "M40,470 C40,370 340,370 340,270 C340,170 40,170 40,70 C40,30 90,10 140,10";
