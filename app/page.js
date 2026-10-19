@@ -28,16 +28,26 @@ const PROCESS = [
   { num: "04", title: "Measure & Scale", desc: "We track core metrics daily, continuously optimizing ad spend, conversion rates, and lifetime value." },
 ];
 
-const TEAM = [
-  { initials: "MS", role: "Chief Executive", name: "Muhammad Saad", desc: "Five years running digital growth for direct-to-consumer and enterprise brands before launching Sparke Avenue in 2026. Directly oversees media architecture." },
-  { initials: "HM", role: "Head of Strategy", name: "Hannan Munir", desc: "Leads discovery, market intelligence, and multichannel media allocation with deep expertise in attribution models and conversion funnels." },
-  { initials: "KA", role: "Creative Director", name: "Kamran Abid", desc: "Directs brand identity, content studio, and video creative. Formerly built and scaled creative engines for high-growth consumer startups." },
-];
-
 const ABOUT_PILLARS = [
   { icon: "compass", title: "Strategic Architecture", desc: "No generic packages. Every media plan and digital funnel is engineered specifically for your unit economics and target demographic." },
   { icon: "palette", title: "Scroll-Stopping Creative", desc: "We marry premium aesthetics with direct-response psychology so your creative captures attention and drives conversions." },
   { icon: "trending", title: "Full-Funnel Ownership", desc: "From top-of-funnel awareness to post-purchase retention, our integrated team handles everything end-to-end." },
+];
+
+const INDUSTRIES = [
+  { icon: "palette", title: "Jewellery & Luxury", desc: "Marketing for high-trust, high-ticket purchases — where brand perception is everything." },
+  { icon: "cart", title: "E-commerce & Retail", desc: "Full-funnel growth for online stores, from first click to repeat purchase." },
+  { icon: "gear", title: "Manufacturing & B2B", desc: "Lead generation and authority building for industrial and B2B brands." },
+  { icon: "instagram", title: "Fashion & Lifestyle", desc: "Content and commerce engines for consumer brands people love to follow." },
+];
+
+const FAQS = [
+  { q: "How much does digital marketing cost in Pakistan?", a: "It depends on scope — SEO retainers typically range from PKR 50,000 to PKR 300,000+ per month, while ad management is usually a percentage of spend or a fixed retainer. We scope every engagement around your goals and unit economics, not generic packages." },
+  { q: "How long does SEO take to show results?", a: "Most businesses see meaningful movement in 3–6 months. SEO compounds — the early months build the foundation (technical fixes, content, authority) and growth accelerates from there." },
+  { q: "Do you work with small businesses or only large companies?", a: "Both. What matters is ambition and readiness to invest in growth — our playbooks adapt to startups and enterprises alike." },
+  { q: "What digital marketing services do you offer?", a: "SEO, performance marketing (Meta, Google and TikTok ads), social media marketing, branding and design, web development, content creation, e-commerce marketing and digital strategy — one integrated team." },
+  { q: "How do you report results?", a: "In plain language, tied to revenue: leads, sales, cost per acquisition and return on ad spend. You always know what your budget earned." },
+  { q: "Why choose a digital marketing agency in Pakistan?", a: "Local market understanding matters — buying behaviour, COD and WhatsApp commerce, festive seasonality. A Pakistan-based team plans around how your customers actually buy." },
 ];
 
 const AVENUE_PATH = "M40,470 C40,370 340,370 340,270 C340,170 40,170 40,70 C40,30 90,10 140,10";
@@ -359,21 +369,69 @@ export default function Home() {
 
       <div className="road-divider" />
 
-      {/* Team Section */}
-      <section id="team" className="section">
+      {/* Industries Section */}
+      <section className="section">
         <div className="section-head reveal">
-          <span className="eyebrow" style={{ justifyContent: "center" }}>Meet The Team</span>
-          <h2 className="section-title">The People Behind Sparke Avenue</h2>
+          <span className="eyebrow" style={{ justifyContent: "center" }}>Industries</span>
+          <h2 className="section-title">Sectors We Know Inside Out</h2>
         </div>
-        <div className="team-grid">
-          {TEAM.map((t) => (
-            <div className="team-card reveal" key={t.name}>
-              <div className="team-avatar">{t.initials}</div>
-              <div className="role">{t.role}</div>
-              <h4>{t.name}</h4>
-              <p>{t.desc}</p>
+        <div className="svc-grid">
+          {INDUSTRIES.map((s) => (
+            <div className="svc-card reveal" key={s.title}>
+              <div className="icon-chip"><Icon name={s.icon} /></div>
+              <h3>{s.title}</h3>
+              <p>{s.desc}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <div className="road-divider" />
+
+      {/* FAQ Section */}
+      <section className="section">
+        <div className="section-head reveal">
+          <span className="eyebrow" style={{ justifyContent: "center" }}>FAQs</span>
+          <h2 className="section-title">Digital Marketing Questions, Answered</h2>
+        </div>
+        <div style={{ maxWidth: 760, margin: "0 auto" }}>
+          {FAQS.map((f) => (
+            <div className="reveal" key={f.q} style={{ marginBottom: 18, padding: "20px 22px", border: "1px solid rgba(255,255,255,.08)", borderRadius: 14, background: "rgba(255,255,255,.02)" }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.02rem", marginBottom: 8 }}>{f.q}</h4>
+              <p style={{ color: "var(--muted)", fontSize: ".93rem", lineHeight: 1.65 }}>{f.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className="road-divider" />
+
+      {/* Blog Preview Section */}
+      <section className="section">
+        <div className="section-head reveal">
+          <span className="eyebrow" style={{ justifyContent: "center" }}>Insights</span>
+          <h2 className="section-title">Latest From The Blog</h2>
+        </div>
+        <div className="svc-grid">
+          <a href="/blog/choosing-digital-marketing-agency-pakistan" className="reveal" style={{ textDecoration: "none" }}>
+            <div className="svc-card" style={{ height: "100%" }}>
+              <span className="eyebrow" style={{ marginBottom: 12 }}>Guide</span>
+              <h3>How to Choose a Digital Marketing Agency in Pakistan: 7 Questions to Ask</h3>
+              <p>The right agency grows your revenue; the wrong one burns your budget on jargon.</p>
+              <span style={{ color: "var(--spark)", fontSize: ".9rem" }}>Read article →</span>
+            </div>
+          </a>
+          <a href="/blog/seo-vs-paid-ads-pakistan" className="reveal" style={{ textDecoration: "none" }}>
+            <div className="svc-card" style={{ height: "100%" }}>
+              <span className="eyebrow" style={{ marginBottom: 12 }}>Comparison</span>
+              <h3>SEO vs Paid Ads: What Works Better for Pakistani Businesses?</h3>
+              <p>Paid ads buy you speed; SEO buys you freedom from ad costs.</p>
+              <span style={{ color: "var(--spark)", fontSize: ".9rem" }}>Read article →</span>
+            </div>
+          </a>
+        </div>
+        <div className="reveal" style={{ textAlign: "center", marginTop: 36 }}>
+          <a href="/blog" className="btn-outline">View All Articles</a>
         </div>
       </section>
 
