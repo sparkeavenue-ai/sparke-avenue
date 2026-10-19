@@ -31,7 +31,7 @@ export default function SiteNav() {
       </Link>
       <ul className={menuOpen ? "open" : ""}>
         <li><a href="/#home" className="nav-link" onClick={() => setMenuOpen(false)}>Home</a></li>
-        <li><a href="/#about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a></li>
+        <li><a href="/about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a></li>
         <li><a href="/#portfolio" className="nav-link" onClick={() => setMenuOpen(false)}>Portfolio</a></li>
         <li><a href="/#services" className="nav-link" onClick={() => setMenuOpen(false)}>Services</a></li>
         <li><a href="/#team" className="nav-link" onClick={() => setMenuOpen(false)}>Team</a></li>
