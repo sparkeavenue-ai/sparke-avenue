@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Sparke Avenue — Create. Connect. Grow.",
+  title: "Digital Marketing Agency in Pakistan | Sparke Avenue",
   description:
-    "Sparke Avenue is a full-service digital marketing and creative agency helping brands build identity, connect with audiences, and grow.",
+    "Sparke Avenue is a digital marketing agency in Pakistan offering SEO, paid ads, social media marketing, branding and web development. Create. Connect. Grow.",
 };
 
 export default function RootLayout({ children }) {
