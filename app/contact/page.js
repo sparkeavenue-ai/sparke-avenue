@@ -35,9 +35,9 @@ const CHANNELS = [
     desc: "B2B insights and company news.",
   },
   {
-    icon: "location", title: "Office",
-    value: "Walled City, Lahore", href: null,
-    desc: "Serving clients across Pakistan and worldwide.",
+    icon: "chat", title: "Response Time",
+    value: "Within 24 hours", href: null,
+    desc: "Every inquiry gets a real human reply.",
   },
 ];
 
