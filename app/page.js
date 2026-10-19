@@ -59,6 +59,18 @@ const TESTIMONIALS = [
     detail: "Jewellery \u2014 Social Media Marketing & Design",
     stars: 5,
   },
+  {
+    quote: "Jewellista had a great experience working with Sparke Avenue! Their team understands our brand needs and provides quality social media marketing and creative designs. We appreciate their efforts and professionalism. Highly recommended for businesses looking to build a strong online presence!",
+    name: "Jewellista.pk",
+    detail: "Luxury Jewellery \u2014 Social Media Marketing & Creative Design",
+    stars: 5,
+  },
+  {
+    quote: "We had a great experience working with Sparke Avenue. Their team is professional, cooperative, and dedicated to delivering quality digital marketing services. Their creative approach and commitment to client satisfaction make them a great choice for businesses looking to grow online. Highly recommended!",
+    name: "Azmat Cables",
+    detail: "Industrial Manufacturing \u2014 Digital Marketing Services",
+    stars: 5,
+  },
 ];
 
 const AVENUE_PATH = "M40,470 C40,370 340,370 340,270 C340,170 40,170 40,70 C40,30 90,10 140,10";
