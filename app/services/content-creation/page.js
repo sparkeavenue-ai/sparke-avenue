@@ -55,24 +55,27 @@ export default function ContentCreationPage() {
             <a href="#showcase" className="btn-outline">View Our Content</a>
           </div>
         </div>
-        <div className="svc-visual reveal">
-          <div className="studio-mock">
-            <div className="studio-frame" style={{ animationDelay: ".3s" }}>
-              <div className="play">▶</div>
-              <div style={{ flex: 1 }}>
-                <div className="wire-line" style={{ width: "70%" }} />
-                <div className="wire-line" style={{ width: "45%" }} />
+        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
+            <div style={{ position: "relative", background: "linear-gradient(160deg,#a855f7,#ff7847 70%)", borderRadius: 16, padding: "30px 20px 20px", marginBottom: 14, overflow: "hidden" }}>
+              <div style={{ position: "absolute", top: 12, right: 14, background: "rgba(0,0,0,.45)", color: "#fff", borderRadius: 8, padding: "3px 9px", fontSize: ".7rem", fontWeight: 700 }}>▶ REEL</div>
+              <div style={{ width: 58, height: 58, borderRadius: "50%", background: "rgba(255,255,255,.92)", display: "flex", alignItems: "center", justifyContent: "center", margin: "6px auto 16px" }}>
+                <span style={{ color: "#12100c", fontSize: "1.2rem", marginLeft: 4 }}>▶</span>
+              </div>
+              <div style={{ color: "#fff", fontWeight: 700, fontSize: "1rem", textAlign: "center", fontFamily: "var(--font-display)" }}>POV: Your ads finally convert 🎯</div>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 16 }}>
+                <span style={{ color: "#fff", fontSize: ".7rem" }}>0:07</span>
+                <div style={{ flex: 1, height: 4, borderRadius: 99, background: "rgba(255,255,255,.35)" }}><div style={{ width: "38%", height: "100%", borderRadius: 99, background: "#fff" }} /></div>
+                <span style={{ color: "rgba(255,255,255,.8)", fontSize: ".7rem" }}>0:18</span>
               </div>
             </div>
-            <div className="studio-frame" style={{ animationDelay: ".55s" }}>
-              <div className="play">▶</div>
-              <div style={{ flex: 1 }}>
-                <div className="wire-line" style={{ width: "60%" }} />
-                <div className="wire-line" style={{ width: "35%" }} />
-              </div>
+            <div style={{ display: "flex", justifyContent: "space-around", textAlign: "center" }}>
+              <div><div style={{ fontSize: "1rem" }}>❤️</div><div style={{ color: "var(--muted)", fontSize: ".7rem", marginTop: 2 }}>48.2k</div></div>
+              <div><div style={{ fontSize: "1rem" }}>💬</div><div style={{ color: "var(--muted)", fontSize: ".7rem", marginTop: 2 }}>1,204</div></div>
+              <div><div style={{ fontSize: "1rem" }}>🔄</div><div style={{ color: "var(--muted)", fontSize: ".7rem", marginTop: 2 }}>3,860</div></div>
+              <div><div style={{ fontSize: "1rem" }}>👁️</div><div style={{ color: "var(--muted)", fontSize: ".7rem", marginTop: 2 }}>212k</div></div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "6%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Reel Ready</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Reel Ready</div>
         </div>
       </section>
 
