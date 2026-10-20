@@ -6,6 +6,7 @@ export function generateMetadata({ params }) {
   return {
     title: `${post.title} | Sparke Avenue Blog`,
     description: post.excerpt,
+    alternates: { canonical: `/blog/${post.slug}` },
   };
 }
 
