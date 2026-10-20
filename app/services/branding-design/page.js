@@ -55,27 +55,16 @@ export default function BrandingDesignPage() {
             <a href="#showcase" className="btn-outline">View Creative Work</a>
           </div>
         </div>
-        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
-            <div style={{ display: "flex", gap: 14, marginBottom: 16 }}>
-              <div style={{ width: 92, height: 92, borderRadius: 18, background: "linear-gradient(135deg,#ffab40,#ff7847)", display: "flex", alignItems: "center", justifyContent: "center", color: "#12100c", fontWeight: 800, fontSize: "1.7rem", fontFamily: "var(--font-display)" }}>SA</div>
-              <div style={{ flex: 1 }}>
-                <div style={{ color: "#fff", fontWeight: 700, fontSize: "1.05rem", fontFamily: "var(--font-display)" }}>Sparke Avenue</div>
-                <div style={{ color: "var(--muted)", fontSize: ".8rem", marginTop: 4 }}>Create. Connect. Grow.</div>
-                <div style={{ marginTop: 10, display: "inline-block", border: "1px solid rgba(255,171,64,.4)", color: "var(--spark)", borderRadius: 999, padding: "3px 10px", fontSize: ".7rem" }}>BRAND IDENTITY v2.0</div>
-              </div>
-            </div>
-            <div style={{ display: "flex", gap: 10, marginBottom: 16 }}>
-              <div style={{ flex: 1 }}><div style={{ height: 44, borderRadius: 10, background: "#ffab40", marginBottom: 6 }} /><div style={{ color: "var(--muted)", fontSize: ".68rem", textAlign: "center" }}>#FFAB40</div></div>
-              <div style={{ flex: 1 }}><div style={{ height: 44, borderRadius: 10, background: "#ff7847", marginBottom: 6 }} /><div style={{ color: "var(--muted)", fontSize: ".68rem", textAlign: "center" }}>#FF7847</div></div>
-              <div style={{ flex: 1 }}><div style={{ height: 44, borderRadius: 10, background: "#a855f7", marginBottom: 6 }} /><div style={{ color: "var(--muted)", fontSize: ".68rem", textAlign: "center" }}>#A855F7</div></div>
-              <div style={{ flex: 1 }}><div style={{ height: 44, borderRadius: 10, background: "#38bdf8", marginBottom: 6 }} /><div style={{ color: "var(--muted)", fontSize: ".68rem", textAlign: "center" }}>#38BDF8</div></div>
-            </div>
-            <div style={{ display: "flex", alignItems: "baseline", gap: 14, borderTop: "1px solid rgba(255,255,255,.08)", paddingTop: 14 }}>
-              <span style={{ color: "#fff", fontSize: "1.9rem", fontWeight: 700, fontFamily: "var(--font-display)" }}>Aa</span>
-              <span style={{ color: "var(--muted)", fontSize: ".8rem" }}>Clash Display — Headlines<br />Satoshi — Body text</span>
+        <div className="svc-visual reveal">
+          <div className="brand-board">
+            <div className="swatch" style={{ background: "linear-gradient(135deg,#4c7cf0,#1c2f5c)", animationDelay: ".2s" }} />
+            <div className="swatch" style={{ background: "linear-gradient(135deg,#ffab40,#7a4b0f)", animationDelay: ".35s" }} />
+            <div className="type-card" style={{ animationDelay: ".5s" }}>
+              <div className="big">Aa</div>
+              <div className="small">Typography System</div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Brand Identity</div>
+          <div className="float-badge" style={{ top: "4%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Logo Concepts</div>
         </div>
       </section>
 
