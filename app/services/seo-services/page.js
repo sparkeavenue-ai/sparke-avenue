@@ -62,14 +62,26 @@ export default function SeoServicesPage() {
             <a href="#case-study" className="btn-outline">Explore Our Work</a>
           </div>
         </div>
-        <div className="svc-visual reveal">
-          <div className="search-mock">
-            <div className="search-bar-ui">🔍 your business keyword...</div>
-            <div className="search-result-row" style={{ animationDelay: ".3s" }}><span className="r-title">Your Website — Home</span><span className="r-rank">#1 ↑</span></div>
-            <div className="search-result-row" style={{ animationDelay: ".5s" }}><span className="r-title">Your Website — Services</span><span className="r-rank">#3 ↑</span></div>
-            <div className="search-result-row" style={{ animationDelay: ".7s" }}><span className="r-title">Your Website — Blog</span><span className="r-rank">#5 ↑</span></div>
+        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
+            <div style={{ display: "flex", alignItems: "center", gap: 10, background: "rgba(255,255,255,.06)", border: "1px solid rgba(255,255,255,.12)", borderRadius: 999, padding: "10px 16px", marginBottom: 18 }}>
+              <span style={{ color: "var(--spark)" }}>🔍</span>
+              <span style={{ color: "#fff", fontSize: ".9rem" }}>digital marketing agency pakistan</span>
+            </div>
+            <div style={{ background: "rgba(255,171,64,.08)", border: "1px solid rgba(255,171,64,.35)", borderRadius: 14, padding: "14px 16px", marginBottom: 12 }}>
+              <div style={{ color: "#7dd87d", fontSize: ".78rem", marginBottom: 4 }}>sparkeavenue.com</div>
+              <div style={{ color: "#fff", fontWeight: 600, fontSize: ".95rem", marginBottom: 4 }}>Digital Marketing Agency in Pakistan | Sparke Avenue</div>
+              <div style={{ color: "var(--spark)", fontSize: ".8rem", letterSpacing: 2 }}>★★★★★ <span style={{ color: "var(--muted)", letterSpacing: 0 }}>· #1 Result</span></div>
+            </div>
+            <div style={{ border: "1px solid rgba(255,255,255,.07)", borderRadius: 14, padding: "12px 16px", marginBottom: 10, opacity: .55 }}>
+              <div style={{ color: "#9db2ce", fontSize: ".75rem", marginBottom: 3 }}>competitor-agency.com</div>
+              <div style={{ height: 9, width: "70%", background: "rgba(255,255,255,.18)", borderRadius: 99 }} />
+            </div>
+            <div style={{ border: "1px solid rgba(255,255,255,.07)", borderRadius: 14, padding: "12px 16px", opacity: .35 }}>
+              <div style={{ color: "#9db2ce", fontSize: ".75rem", marginBottom: 3 }}>another-agency.pk</div>
+              <div style={{ height: 9, width: "55%", background: "rgba(255,255,255,.18)", borderRadius: 99 }} />
+            </div>
           </div>
-          <div className="float-badge" style={{ bottom: "6%", right: "-2%", animationDelay: "1s" }}><span className="dot" />Traffic ↑</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Traffic ↑ 340%</div>
         </div>
       </section>
 
