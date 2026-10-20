@@ -63,20 +63,30 @@ export default function DigitalStrategyPage() {
             <a href="#ecosystem" className="btn-outline">Explore Our Approach</a>
           </div>
         </div>
-        <div className="svc-visual reveal eco-mock">
-          <svg viewBox="0 0 400 480">
-            <line x1="200" y1="60" x2="80" y2="150" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="200" y1="60" x2="320" y2="150" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="80" y1="150" x2="60" y2="270" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="320" y1="150" x2="340" y2="270" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="60" y1="270" x2="200" y2="400" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="340" y1="270" x2="200" y2="400" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-          </svg>
-          {ECOSYSTEM_NODES.map((n, i) => (
-            <div className="eco-node" key={n.label} style={{ top: n.top, left: n.left, animationDelay: `${0.3 + i * 0.15}s` }}>
-              {n.label}
+        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+              <span style={{ color: "#fff", fontWeight: 700, fontSize: ".95rem", fontFamily: "var(--font-display)" }}>90-Day Growth Roadmap</span>
+              <span style={{ background: "rgba(255,171,64,.15)", color: "var(--spark)", borderRadius: 999, padding: "3px 10px", fontSize: ".7rem", fontWeight: 700 }}>ON TRACK</span>
             </div>
-          ))}
+            <div style={{ marginBottom: 14 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: ".8rem", marginBottom: 6 }}><span style={{ color: "#fff" }}>✓ Audit & Foundations</span><span style={{ color: "#7dd87d" }}>Done</span></div>
+              <div style={{ height: 7, borderRadius: 99, background: "rgba(255,255,255,.1)" }}><div style={{ width: "100%", height: "100%", borderRadius: 99, background: "#7dd87d" }} /></div>
+            </div>
+            <div style={{ marginBottom: 14 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: ".8rem", marginBottom: 6 }}><span style={{ color: "#fff" }}>◐ Campaign Launch</span><span style={{ color: "var(--spark)" }}>68%</span></div>
+              <div style={{ height: 7, borderRadius: 99, background: "rgba(255,255,255,.1)" }}><div style={{ width: "68%", height: "100%", borderRadius: 99, background: "var(--spark)" }} /></div>
+            </div>
+            <div style={{ marginBottom: 18 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: ".8rem", marginBottom: 6 }}><span style={{ color: "#fff" }}>○ Scale & Optimize</span><span style={{ color: "var(--muted)" }}>Next</span></div>
+              <div style={{ height: 7, borderRadius: 99, background: "rgba(255,255,255,.1)" }}><div style={{ width: "12%", height: "100%", borderRadius: 99, background: "rgba(255,255,255,.4)" }} /></div>
+            </div>
+            <div style={{ display: "flex", gap: 10 }}>
+              <div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: "10px 12px", textAlign: "center" }}><div style={{ color: "#fff", fontWeight: 800 }}>+212%</div><div style={{ color: "var(--muted)", fontSize: ".68rem" }}>Traffic</div></div>
+              <div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: "10px 12px", textAlign: "center" }}><div style={{ color: "#fff", fontWeight: 800 }}>4.8x</div><div style={{ color: "var(--muted)", fontSize: ".68rem" }}>ROAS</div></div>
+              <div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: "10px 12px", textAlign: "center" }}><div style={{ color: "#fff", fontWeight: 800 }}>-31%</div><div style={{ color: "var(--muted)", fontSize: ".68rem" }}>Cost/Lead</div></div>
+            </div>
+          </div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />90-Day Plan</div>
         </div>
       </section>
 
