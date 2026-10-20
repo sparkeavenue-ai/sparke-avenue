@@ -190,26 +190,77 @@ export default function Home() {
             <a href="#contact" className="btn">Start a Project →</a>
             <a href="#portfolio" className="btn-outline">View Client Work</a>
           </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 30, opacity: 0, animation: "fadeUp .9s cubic-bezier(.16,1,.3,1) forwards", animationDelay: ".75s" }}>
+            <span style={{ color: "var(--spark)", letterSpacing: 2, fontSize: ".92rem" }}>★★★★★</span>
+            <span style={{ color: "var(--muted)", fontSize: ".83rem", lineHeight: 1.5 }}><strong style={{ color: "#fff" }}>Trusted by growing brands</strong><br />Jewellery, retail, manufacturing, fashion &amp; B2B</span>
+          </div>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 24, opacity: 0, animation: "fadeUp .9s cubic-bezier(.16,1,.3,1) forwards", animationDelay: ".85s" }}>
+            <span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>SEO</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Paid Ads</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Social Media</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Branding</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Web Development</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>E-commerce</span>
+          </div>
         </div>
-        <div className="avenue-visual">
-          <svg viewBox="0 0 400 500" fill="none">
-            <defs>
-              <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-                <feGaussianBlur stdDeviation="6" result="blur" />
-                <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-              </filter>
-            </defs>
-            <path d={AVENUE_PATH} stroke="rgba(255,255,255,0.12)" strokeWidth="2" strokeDasharray="2 10" strokeLinecap="round" />
-            <circle r="7" fill="#ffab40" filter="url(#glow)">
-              <animateMotion dur="7s" repeatCount="indefinite" path={AVENUE_PATH} />
-            </circle>
-          </svg>
-          <span className="way-tag" style={{ top: "6%", left: "24%", animationDelay: "1s" }}>SEO</span>
-          <span className="way-tag" style={{ top: "34%", right: "6%", animationDelay: "1.4s" }}>ADS</span>
-          <span className="way-tag" style={{ top: "62%", left: "58%", animationDelay: "1.8s" }}>SMM</span>
-          <span className="way-tag" style={{ bottom: "8%", left: "6%", animationDelay: "2.2s" }}>WEB</span>
+        <div style={{ position: "relative", minHeight: 520 }}>
+          <div style={{ position: "absolute", top: 8, left: 0, width: "78%", background: "#101827", border: "1px solid rgba(255,255,255,.15)", borderRadius: 18, overflow: "hidden", boxShadow: "0 34px 70px rgba(0,0,0,.5)" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 6, background: "rgba(255,255,255,.05)", padding: "10px 14px" }}>
+              <span style={{ width: 9, height: 9, borderRadius: "50%", background: "#ff5f57" }} /><span style={{ width: 9, height: 9, borderRadius: "50%", background: "#febc2e" }} /><span style={{ width: 9, height: 9, borderRadius: "50%", background: "#28c840" }} />
+              <span style={{ marginLeft: 9, background: "rgba(255,255,255,.06)", color: "#93a1b7", borderRadius: 7, padding: "3px 12px", fontSize: ".7rem", flex: 1, textAlign: "center" }}>🔒 jewellista.pk — client store</span>
+            </div>
+            <div style={{ padding: "20px 22px 24px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 16 }}>
+                <span style={{ width: 21, height: 21, borderRadius: 6, background: "linear-gradient(135deg, #f59e0b, #a855f7)" }} />
+                <b style={{ color: "#fff", fontSize: ".8rem" }}>Jewellista</b>
+                <span style={{ marginLeft: "auto", color: "#93a1b7", fontSize: ".68rem" }}>Shop · Collections · About</span>
+                <span style={{ background: "var(--spark)", color: "#170f02", borderRadius: 7, padding: "4px 10px", fontSize: ".68rem", fontWeight: 800 }}>Shop Now</span>
+              </div>
+              <div style={{ color: "#fff", fontSize: "1.35rem", fontWeight: 800, lineHeight: 1.2, letterSpacing: "-.4px" }}>Bridal jewellery,<br /><span style={{ color: "var(--spark)" }}>crafted to shine.</span></div>
+              <p style={{ color: "#93a1b7", fontSize: ".76rem", margin: "8px 0 14px", lineHeight: 1.55 }}>Fine craftsmanship, modern elegance — delivered across Pakistan &amp; worldwide.</p>
+              <span style={{ display: "inline-block", background: "var(--spark)", color: "#170f02", borderRadius: 8, padding: "7px 14px", fontSize: ".74rem", fontWeight: 800 }}>Explore Collection</span>
+              <div style={{ display: "flex", gap: 9, marginTop: 16 }}>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #f59e0b, #b45309)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>💎</div>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #a855f7, #6d28d9)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>💍</div>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #38bdf8, #0369a1)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>✨</div>
+              </div>
+            </div>
+          </div>
+          <div style={{ position: "absolute", right: 0, top: 120, width: 172, background: "#0d1322", border: "2px solid rgba(255,255,255,.22)", borderRadius: 26, padding: 10, transform: "rotate(3deg)", boxShadow: "0 30px 60px rgba(0,0,0,.55)", zIndex: 3 }}>
+            <div style={{ width: 44, height: 5, borderRadius: 99, background: "rgba(255,255,255,.28)", margin: "2px auto 9px" }} />
+            <div style={{ borderRadius: 18, background: "linear-gradient(165deg, #a855f7, #ff7847 78%)", padding: "16px 13px 14px", minHeight: 238, display: "flex", flexDirection: "column" }}>
+              <span style={{ alignSelf: "flex-end", background: "rgba(0,0,0,.45)", color: "#fff", borderRadius: 7, padding: "3px 8px", fontSize: ".62rem", fontWeight: 800 }}>▶ REEL</span>
+              <span style={{ width: 52, height: 52, borderRadius: "50%", background: "rgba(255,255,255,.94)", display: "flex", alignItems: "center", justifyContent: "center", margin: "auto", color: "#170f02", fontSize: "1.05rem", paddingLeft: 4 }}>▶</span>
+              <div style={{ color: "#fff", fontWeight: 800, fontSize: ".82rem", lineHeight: 1.35 }}>POV: Your brand goes viral 🎯</div>
+              <div style={{ color: "rgba(255,255,255,.85)", fontSize: ".66rem", marginTop: 5 }}>212K views · @sparkeavenue</div>
+              <div style={{ height: 4, borderRadius: 99, background: "rgba(255,255,255,.35)", marginTop: 11 }}><div style={{ width: "42%", height: "100%", background: "#fff", borderRadius: 99 }} /></div>
+            </div>
+          </div>
+          <div style={{ position: "absolute", top: -8, right: 14, background: "rgba(14,19,32,.96)", border: "1px solid rgba(255,255,255,.15)", borderRadius: 15, padding: "11px 14px", display: "flex", gap: 10, alignItems: "center", boxShadow: "0 22px 44px rgba(0,0,0,.45)", zIndex: 4 }}>
+            <span style={{ width: 48, height: 36, background: "#fff", borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", flexShrink: 0 }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 40, height: "auto" }} /></span>
+            <span>
+              <b style={{ display: "block", color: "#fff", fontSize: ".76rem" }}>Brand Identity</b>
+              <span style={{ color: "#7dd87d", fontSize: ".66rem", fontWeight: 700 }}>Delivered ✓</span>
+            </span>
+          </div>
+          <div style={{ position: "absolute", left: 6, bottom: 6, width: 250, background: "rgba(14,19,32,.96)", border: "1px solid rgba(255,255,255,.15)", borderRadius: 16, padding: "15px 16px", transform: "rotate(-2deg)", boxShadow: "0 26px 52px rgba(0,0,0,.5)", zIndex: 4 }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              <b style={{ color: "#fff", fontSize: ".8rem" }}>Meta Ads · Jewellista.pk</b>
+              <span style={{ color: "#7dd87d", fontSize: ".66rem", fontWeight: 800 }}>● ACTIVE</span>
+            </div>
+            <div style={{ color: "#fff", fontSize: "1.5rem", fontWeight: 800, marginTop: 8 }}>4.8x <small style={{ fontSize: ".72rem", color: "#7dd87d", fontWeight: 700 }}>return on ad spend</small></div>
+            <div style={{ display: "flex", alignItems: "flex-end", gap: 5, height: 38, marginTop: 10 }}>
+              <div style={{ flex: 1, height: "35%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 0.55 }} /><div style={{ flex: 1, height: "50%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 0.65 }} /><div style={{ flex: 1, height: "45%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 0.6 }} /><div style={{ flex: 1, height: "66%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 0.78 }} /><div style={{ flex: 1, height: "82%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 0.9 }} /><div style={{ flex: 1, height: "100%", borderRadius: "4px 4px 0 0", background: "linear-gradient(180deg, #ffab40, #ff7847)", opacity: 1 }} />
+            </div>
+            <p style={{ color: "#93a1b7", fontSize: ".68rem", marginTop: 8 }}>Campaign performance — last 30 days</p>
+          </div>
+          <div className="float-badge" style={{ bottom: "9%", right: "2%", top: "auto" }}><span className="dot" />50M+ Impressions Driven</div>
         </div>
+      
       </section>
+
+      {/* Client Strip */}
+      <div style={{ textAlign: "center", padding: "26px 20px 6px" }}>
+        <div style={{ color: "var(--muted)", fontSize: ".68rem", fontWeight: 800, letterSpacing: "1.7px", marginBottom: 14 }}>BRANDS WE HELP GROW</div>
+        <div style={{ display: "flex", justifyContent: "center", gap: 26, flexWrap: "wrap", color: "#c5cedd", fontSize: ".95rem", fontWeight: 600, letterSpacing: ".2px" }}>
+          <span>Jewellista.pk</span><span>Waheed Jewellers</span><span>Azmat Cables</span><span>Zarnoor Collection</span><span>Majid Silver &amp; Gold</span><span>FPUL Alliance</span>
+        </div>
+      </div>
 
       {/* Marquee Track */}
       <div className="marquee-wrap">
