@@ -81,22 +81,27 @@ export default function WebDevelopmentPage() {
             <a href="#showcase" className="btn-outline">View Our Work</a>
           </div>
         </div>
-        <div className="svc-visual reveal">
-          <div className="browser-mock">
-            <div className="browser-bar">
-              <div className="dots"><span /><span /><span /></div>
-              <div className="url">sparkeavenue.com</div>
+        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 16 }}>
+              <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#ff5f57", display: "inline-block" }} />
+              <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#febc2e", display: "inline-block" }} />
+              <span style={{ width: 10, height: 10, borderRadius: "50%", background: "#28c840", display: "inline-block" }} />
+              <span style={{ marginLeft: 10, background: "rgba(255,255,255,.06)", borderRadius: 8, padding: "4px 12px", color: "var(--muted)", fontSize: ".75rem", flex: 1, textAlign: "center" }}>🔒 yourstore.pk</span>
             </div>
-            <div className="browser-body">
-              <div className="wire-line" style={{ width: "60%" }} />
-              <div className="wire-line" style={{ width: "40%" }} />
-              <div className="wire-block" />
-              <div className="wire-line" style={{ width: "80%" }} />
-              <div className="wire-line" style={{ width: "55%" }} />
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
+              <span style={{ width: 22, height: 22, borderRadius: 6, background: "linear-gradient(135deg,#ffab40,#ff7847)", display: "inline-block" }} />
+              <span style={{ color: "#fff", fontWeight: 700, fontSize: ".85rem" }}>YourStore</span>
+              <span style={{ marginLeft: "auto", color: "var(--muted)", fontSize: ".72rem" }}>Shop · About · Contact</span>
+              <span style={{ background: "var(--spark)", color: "#12100c", borderRadius: 8, padding: "4px 10px", fontSize: ".72rem", fontWeight: 700 }}>Shop Now</span>
+            </div>
+            <div style={{ color: "#fff", fontWeight: 800, fontSize: "1.3rem", lineHeight: 1.2, fontFamily: "var(--font-display)", marginBottom: 8 }}>Websites built to turn<br />attention into action.</div>
+            <div style={{ color: "var(--muted)", fontSize: ".82rem", marginBottom: 16 }}>Modern, responsive and designed around your goals.</div>
+            <div style={{ display: "flex", gap: 10 }}>
+              <span style={{ background: "var(--spark)", color: "#12100c", borderRadius: 10, padding: "8px 16px", fontSize: ".8rem", fontWeight: 700 }}>Start Project →</span>
+              <span style={{ border: "1px solid rgba(255,255,255,.25)", color: "#fff", borderRadius: 10, padding: "8px 16px", fontSize: ".8rem" }}>View Work</span>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "4%", right: "-2%", animationDelay: ".8s" }}><span className="dot" />Responsive</div>
-          <div className="float-badge blue-dot" style={{ bottom: "8%", left: "-4%", animationDelay: "1.2s" }}><span className="dot" />Fast Load</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Responsive</div><div className="float-badge" style={{ bottom: "-4%", left: "2%" }}><span className="dot" />⚡ Fast Load · 98/100</div>
         </div>
       </section>
 
