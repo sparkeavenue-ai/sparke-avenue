@@ -71,12 +71,79 @@ export default function ServicesPage() {
       <section className="svc-hero section">
         <div className="svc-hero-copy">
           <span className="eyebrow">Our Services</span>
-          <h1 className="reveal in">Eight disciplines. One growth engine.</h1>
+          <h1 className="reveal in">Eight disciplines. One <span style={{ background: "linear-gradient(92deg, #ffab40, #ff7847 45%, #e879f9)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>growth engine.</span></h1>
           <p>Every service at Sparke Avenue is built for the same outcome: measurable business growth. Pick one, or let us run the full funnel.</p>
           <div className="cta-row">
             <a href="/#contact" className="btn">Get a Free Consultation →</a>
             <a href="/about" className="btn-outline">About Us</a>
           </div>
+          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 26 }}>
+            <span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🧩 <b style={{ color: '#fff' }}>8</b> services</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🎯 Full-funnel approach</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>📊 Measured in revenue</span>
+          </div>
+        </div>
+        <div className="svc-visual reveal">
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
+              <span style={{ color: "#fff", fontWeight: 700, fontSize: ".92rem" }}>The Growth Engine</span>
+              <span style={{ background: "rgba(255,171,64,.15)", color: "var(--spark)", border: "1px solid rgba(255,171,64,.4)", borderRadius: 999, padding: "3px 10px", fontSize: ".68rem", fontWeight: 700 }}>FULL FUNNEL</span>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+              <a href="/services/seo-services" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(56,189,248,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🔍</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>SEO Services</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Rank & stay on top</span>
+                </span>
+              </a><a href="/services/performance-marketing" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(255,171,64,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🎯</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Performance Marketing</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Ads built for ROAS</span>
+                </span>
+              </a><a href="/services/social-media-marketing" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(244,114,182,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>📱</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Social Media</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Content people stop for</span>
+                </span>
+              </a><a href="/services/branding-design" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(168,85,247,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🎨</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Branding & Design</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Identities that stick</span>
+                </span>
+              </a><a href="/services/web-development" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(125,216,125,.13)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>💻</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Web Development</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Sites that convert</span>
+                </span>
+              </a><a href="/services/content-creation" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(249,115,22,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🎬</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Content Creation</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Reels, posts & more</span>
+                </span>
+              </a><a href="/services/ecommerce-marketing" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(251,191,36,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🛒</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>E-commerce</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>Stores that sell</span>
+                </span>
+              </a><a href="/services/digital-strategy" style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.09)", background: "rgba(255,255,255,.04)", borderRadius: 13, padding: 12, textDecoration: "none" }}>
+                <span style={{ width: 36, height: 36, flexShrink: 0, borderRadius: 10, background: "rgba(96,165,250,.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🧭</span>
+                <span>
+                  <span style={{ display: "block", color: "#fff", fontSize: ".83rem", fontWeight: 700, lineHeight: 1.3 }}>Digital Strategy</span>
+                  <span style={{ display: "block", color: "var(--muted)", fontSize: ".68rem", marginTop: 2 }}>The 90-day roadmap</span>
+                </span>
+              </a>
+            </div>
+            <div style={{ marginTop: 16, borderTop: "1px solid rgba(255,255,255,.09)", paddingTop: 14, display: "flex", alignItems: "center", gap: 8, fontSize: ".74rem", color: "#cbd5e1", flexWrap: "wrap" }}>
+              <b style={{ color: "#fff" }}>Search</b><span style={{ color: "var(--spark)" }}>→</span><b style={{ color: "#fff" }}>Click</b><span style={{ color: "var(--spark)" }}>→</span><b style={{ color: "#fff" }}>Engage</b><span style={{ color: "var(--spark)" }}>→</span><b style={{ color: "#fff" }}>Buy</b><span style={{ color: "var(--spark)" }}>→</span><b style={{ color: "#fff" }}>Repeat</b>
+            </div>
+          </div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />8 Services · One Team</div>
+          <div className="float-badge" style={{ bottom: "-4%", left: "2%", top: "auto", right: "auto" }}><span className="dot" />Consultation: 100% Free</div>
         </div>
       </section>
 
