@@ -5,6 +5,7 @@ export const metadata = {
   title: "Digital Marketing Agency in Pakistan | Sparke Avenue",
   description:
     "Sparke Avenue is a digital marketing agency in Pakistan offering SEO, paid ads, social media marketing, branding and web development. Create. Connect. Grow.",
+  alternates: { canonical: "https://sparkeavenue.com" },
   openGraph: {
     type: "website",
     siteName: "Sparke Avenue",
