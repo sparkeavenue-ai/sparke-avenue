@@ -87,26 +87,21 @@ export default function SocialMediaMarketingPage() {
             <a href="#portfolio" className="btn-outline">See Our Work</a>
           </div>
         </div>
-        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
-            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
-              <img src="/logo-mark.png" alt="Sparke Avenue" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" }} />
-              <div>
-                <div style={{ color: "#fff", fontWeight: 700, fontSize: ".9rem" }}>sparkeavenue</div>
-                <div style={{ color: "var(--muted)", fontSize: ".72rem" }}>Lahore, Pakistan</div>
-              </div>
-              <span style={{ marginLeft: "auto", color: "var(--muted)" }}>•••</span>
+        <div className="svc-visual reveal">
+          <div className="feed-mock">
+            <div className="feed-post" style={{ animationDelay: ".3s" }}>
+              <div className="fp-top"><div className="fp-avatar" /><div className="fp-line" style={{ width: "50%" }} /></div>
+              <div className="fp-line" style={{ width: "90%" }} />
+              <div className="fp-line" style={{ width: "70%" }} />
+              <div className="fp-stats"><span>❤️ 1.2k</span><span>💬 84</span><span>↗️ 210</span></div>
             </div>
-            <div style={{ background: "linear-gradient(135deg,#ffab40,#ff7847 45%,#a855f7)", borderRadius: 14, padding: "26px 20px", marginBottom: 14 }}>
-              <div style={{ color: "#fff", fontWeight: 800, fontSize: "1.25rem", lineHeight: 1.25, fontFamily: "var(--font-display)" }}>3 SEO mistakes killing your growth 👇</div>
-              <div style={{ color: "rgba(255,255,255,.85)", fontSize: ".8rem", marginTop: 8 }}>Save this before your competitors do 📌</div>
+            <div className="feed-post" style={{ animationDelay: ".6s" }}>
+              <div className="fp-top"><div className="fp-avatar" /><div className="fp-line" style={{ width: "40%" }} /></div>
+              <div className="fp-line" style={{ width: "80%" }} />
+              <div className="fp-stats"><span>❤️ 940</span><span>💬 52</span><span>↗️ 130</span></div>
             </div>
-            <div style={{ display: "flex", gap: 16, fontSize: "1.05rem", marginBottom: 10 }}>
-              <span>❤️</span><span>💬</span><span>🔄</span><span style={{ marginLeft: "auto" }}>🔖</span>
-            </div>
-            <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600 }}>2,847 likes</div>
-            <div style={{ color: "var(--muted)", fontSize: ".82rem", marginTop: 3 }}><b style={{ color: "#fff" }}>sparkeavenue</b> Your website is invisible on Google because…</div>
           </div>
-          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Engagement ↑</div>
+          <div className="float-badge" style={{ top: "2%", right: "0%", animationDelay: ".9s" }}><span className="dot" />Engagement ↑</div>
         </div>
       </section>
 
