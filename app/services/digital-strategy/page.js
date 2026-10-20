@@ -63,20 +63,23 @@ export default function DigitalStrategyPage() {
             <a href="#ecosystem" className="btn-outline">Explore Our Approach</a>
           </div>
         </div>
-        <div className="svc-visual reveal eco-mock">
-          <svg viewBox="0 0 400 480">
-            <line x1="200" y1="60" x2="80" y2="150" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="200" y1="60" x2="320" y2="150" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="80" y1="150" x2="60" y2="270" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="320" y1="150" x2="340" y2="270" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="60" y1="270" x2="200" y2="400" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-            <line x1="340" y1="270" x2="200" y2="400" stroke="rgba(255,255,255,0.12)" strokeWidth="1.5" />
-          </svg>
-          {ECOSYSTEM_NODES.map((n, i) => (
-            <div className="eco-node" key={n.label} style={{ top: n.top, left: n.left, animationDelay: `${0.3 + i * 0.15}s` }}>
-              {n.label}
+        <div className="svc-visual reveal">
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
+              <span style={{ color: "#fff", fontWeight: 700 }}>Full-Funnel Strategy</span>
+              <span style={{ background: "rgba(255,171,64,.15)", color: "#ffab40", border: "1px solid rgba(255,171,64,.4)", borderRadius: 999, padding: "3px 10px", fontSize: ".7rem", fontWeight: 700 }}>90-DAY PLAN</span>
             </div>
-          ))}
+            <div style={{ display: "grid", gap: 8, justifyItems: "center" }}>
+              <div style={{ width: "100%", background: "linear-gradient(90deg, #38bdf8, #0ea5e9)", borderRadius: 10, padding: "10px 14px", display: "flex", alignItems: "center" }}><span style={{ fontSize: ".82rem", fontWeight: 700, color: "#082f49" }}>👁️ AWARENESS</span><b style={{ marginLeft: "auto", color: "#082f49" }}>1.2M reach</b></div>
+              <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>▼ 7% convert</div>
+              <div style={{ width: "82%", background: "linear-gradient(90deg, #a855f7, #9333ea)", borderRadius: 10, padding: "10px 14px", display: "flex", alignItems: "center" }}><span style={{ fontSize: ".82rem", fontWeight: 700, color: "#fff" }}>🔍 CONSIDERATION</span><b style={{ marginLeft: "auto", color: "#fff" }}>84K visits</b></div>
+              <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>▼ 15% convert</div>
+              <div style={{ width: "64%", background: "linear-gradient(90deg, #ff7847, #f97316)", borderRadius: 10, padding: "10px 14px", display: "flex", alignItems: "center" }}><span style={{ fontSize: ".82rem", fontWeight: 700, color: "#431407" }}>💬 LEADS</span><b style={{ marginLeft: "auto", color: "#431407" }}>12.4K</b></div>
+              <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>▼ 23% convert</div>
+              <div style={{ width: "46%", background: "linear-gradient(90deg, #ffab40, #f59e0b)", borderRadius: 10, padding: "10px 14px", display: "flex", alignItems: "center" }}><span style={{ fontSize: ".82rem", fontWeight: 700, color: "#451a03" }}>🛒 SALES</span><b style={{ marginLeft: "auto", color: "#451a03" }}>2,860</b></div>
+            </div>
+          </div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Har step measurable</div>
         </div>
       </section>
 
