@@ -186,13 +186,15 @@ export default function BrandModal({ brand, onClose }) {
         role="dialog"
         aria-modal="true"
       >
-        <button
-          className="brand-modal-close"
-          onClick={onClose}
-          aria-label="Close modal"
-        >
-          <Icon name="close" size={20} />
-        </button>
+        <div className="brand-modal-close-wrap">
+          <button
+            className="brand-modal-close"
+            onClick={onClose}
+            aria-label="Close modal"
+          >
+            <Icon name="close" size={20} />
+          </button>
+        </div>
 
         <div className="brand-modal-header">
           <div className="brand-modal-logo-wrap">
