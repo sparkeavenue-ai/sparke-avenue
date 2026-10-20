@@ -202,22 +202,22 @@ export default function Home() {
           <div style={{ position: "absolute", top: 8, left: 0, width: "78%", background: "#101827", border: "1px solid rgba(255,255,255,.15)", borderRadius: 18, overflow: "hidden", boxShadow: "0 34px 70px rgba(0,0,0,.5)" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 6, background: "rgba(255,255,255,.05)", padding: "10px 14px" }}>
               <span style={{ width: 9, height: 9, borderRadius: "50%", background: "#ff5f57" }} /><span style={{ width: 9, height: 9, borderRadius: "50%", background: "#febc2e" }} /><span style={{ width: 9, height: 9, borderRadius: "50%", background: "#28c840" }} />
-              <span style={{ marginLeft: 9, background: "rgba(255,255,255,.06)", color: "#93a1b7", borderRadius: 7, padding: "3px 12px", fontSize: ".7rem", flex: 1, textAlign: "center" }}>🔒 jewellista.pk — client store</span>
+              <span style={{ marginLeft: 9, background: "rgba(255,255,255,.06)", color: "#93a1b7", borderRadius: 7, padding: "3px 12px", fontSize: ".7rem", flex: 1, textAlign: "center" }}>🔒 sparkeavenue.com</span>
             </div>
             <div style={{ padding: "20px 22px 24px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 16 }}>
-                <span style={{ width: 21, height: 21, borderRadius: 6, background: "linear-gradient(135deg, #f59e0b, #a855f7)" }} />
-                <b style={{ color: "#fff", fontSize: ".8rem" }}>Jewellista</b>
-                <span style={{ marginLeft: "auto", color: "#93a1b7", fontSize: ".68rem" }}>Shop · Collections · About</span>
-                <span style={{ background: "var(--spark)", color: "#170f02", borderRadius: 7, padding: "4px 10px", fontSize: ".68rem", fontWeight: 800 }}>Shop Now</span>
+                <span style={{ width: 30, height: 24, background: "#fff", borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", flexShrink: 0 }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 25, height: "auto" }} /></span>
+                <b style={{ color: "#fff", fontSize: ".8rem" }}>Sparke Avenue</b>
+                <span style={{ marginLeft: "auto", color: "#93a1b7", fontSize: ".68rem" }}>Home · Services · Work</span>
+                <span style={{ background: "var(--spark)", color: "#170f02", borderRadius: 7, padding: "4px 10px", fontSize: ".68rem", fontWeight: 800 }}>Start a Project</span>
               </div>
-              <div style={{ color: "#fff", fontSize: "1.35rem", fontWeight: 800, lineHeight: 1.2, letterSpacing: "-.4px" }}>Bridal jewellery,<br /><span style={{ color: "var(--spark)" }}>crafted to shine.</span></div>
-              <p style={{ color: "#93a1b7", fontSize: ".76rem", margin: "8px 0 14px", lineHeight: 1.55 }}>Fine craftsmanship, modern elegance — delivered across Pakistan &amp; worldwide.</p>
-              <span style={{ display: "inline-block", background: "var(--spark)", color: "#170f02", borderRadius: 8, padding: "7px 14px", fontSize: ".74rem", fontWeight: 800 }}>Explore Collection</span>
+              <div style={{ color: "#fff", fontSize: "1.35rem", fontWeight: 800, lineHeight: 1.2, letterSpacing: "-.4px" }}>We turn attention<br /><span style={{ color: "var(--spark)" }}>into revenue.</span></div>
+              <p style={{ color: "#93a1b7", fontSize: ".76rem", margin: "8px 0 14px", lineHeight: 1.55 }}>SEO, paid media, social, branding &amp; web — one growth team for ambitious brands.</p>
+              <span style={{ display: "inline-block", background: "var(--spark)", color: "#170f02", borderRadius: 8, padding: "7px 14px", fontSize: ".74rem", fontWeight: 800 }}>Explore Services</span>
               <div style={{ display: "flex", gap: 9, marginTop: 16 }}>
-                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #f59e0b, #b45309)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>💎</div>
-                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #a855f7, #6d28d9)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>💍</div>
-                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #38bdf8, #0369a1)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>✨</div>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #f59e0b, #b45309)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>🔍</div>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #a855f7, #6d28d9)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>📈</div>
+                <div style={{ flex: 1, height: 52, borderRadius: 10, background: "linear-gradient(135deg, #38bdf8, #0369a1)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.25rem" }}>🎬</div>
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function Home() {
           </div>
           <div style={{ position: "absolute", left: 6, bottom: 6, width: 250, background: "rgba(14,19,32,.96)", border: "1px solid rgba(255,255,255,.15)", borderRadius: 16, padding: "15px 16px", transform: "rotate(-2deg)", boxShadow: "0 26px 52px rgba(0,0,0,.5)", zIndex: 4 }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <b style={{ color: "#fff", fontSize: ".8rem" }}>Meta Ads · Jewellista.pk</b>
+              <b style={{ color: "#fff", fontSize: ".8rem" }}>Meta Ads · Client Campaign</b>
               <span style={{ color: "#7dd87d", fontSize: ".66rem", fontWeight: 800 }}>● ACTIVE</span>
             </div>
             <div style={{ color: "#fff", fontSize: "1.5rem", fontWeight: 800, marginTop: 8 }}>4.8x <small style={{ fontSize: ".72rem", color: "#7dd87d", fontWeight: 700 }}>return on ad spend</small></div>
@@ -253,14 +253,6 @@ export default function Home() {
         </div>
       
       </section>
-
-      {/* Client Strip */}
-      <div style={{ textAlign: "center", padding: "26px 20px 6px" }}>
-        <div style={{ color: "var(--muted)", fontSize: ".68rem", fontWeight: 800, letterSpacing: "1.7px", marginBottom: 14 }}>BRANDS WE HELP GROW</div>
-        <div style={{ display: "flex", justifyContent: "center", gap: 26, flexWrap: "wrap", color: "#c5cedd", fontSize: ".95rem", fontWeight: 600, letterSpacing: ".2px" }}>
-          <span>Jewellista.pk</span><span>Waheed Jewellers</span><span>Azmat Cables</span><span>Zarnoor Collection</span><span>Majid Silver &amp; Gold</span><span>FPUL Alliance</span>
-        </div>
-      </div>
 
       {/* Marquee Track */}
       <div className="marquee-wrap">
