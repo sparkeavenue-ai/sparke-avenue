@@ -62,26 +62,13 @@ export default function EcommerceMarketingPage() {
             <a href="#case-study" className="btn-outline">View Our Work</a>
           </div>
         </div>
-        <div className="svc-visual reveal"><div style={{ background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:22px;backdropFilter:"blur(6px)";boxShadow:"0 30px 60px rgba(0,0,0,.35)" }}
-            <div style={{ display: "flex", gap: 14, marginBottom: 14 }}>
-              <div style={{ width: 96, height: 96, borderRadius: 14, background: "linear-gradient(135deg,#fbbf24,#f59e0b)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "2rem" }}>💎</div>
-              <div style={{ flex: 1 }}>
-                <div style={{ color: "#fff", fontWeight: 700, fontSize: ".95rem" }}>Bridal Jewellery Set</div>
-                <div style={{ color: "var(--spark)", fontSize: ".78rem", letterSpacing: 2, margin: "4px 0" }}>★★★★★ <span style={{ color: "var(--muted)", letterSpacing: 0 }}>(212)</span></div>
-                <div style={{ color: "#fff", fontWeight: 800, fontSize: "1.05rem" }}>PKR 24,999 <span style={{ color: "var(--muted)", fontWeight: 400, fontSize: ".78rem", textDecoration: "line-through" }}>PKR 32,000</span></div>
-                <span style={{ display: "inline-block", marginTop: 8, background: "var(--spark)", color: "#12100c", borderRadius: 9, padding: "6px 14px", fontSize: ".78rem", fontWeight: 700 }}>Add to Cart 🛒</span>
-              </div>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, background: "rgba(125,216,125,.1)", border: "1px solid rgba(125,216,125,.35)", borderRadius: 12, padding: "10px 14px" }}>
-              <span style={{ fontSize: "1.05rem" }}>🎉</span>
-              <div>
-                <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600 }}>New order received!</div>
-                <div style={{ color: "var(--muted)", fontSize: ".72rem" }}>Order #8412 · PKR 24,999 · Just now</div>
-              </div>
-              <span style={{ marginLeft: "auto", color: "#7dd87d", fontWeight: 700, fontSize: ".82rem" }}>+ Sales ↑</span>
-            </div>
+        <div className="svc-visual reveal">
+          <div className="ecom-mock">
+            <div className="ecom-card" style={{ animationDelay: ".2s" }}><div className="e-label">Revenue</div><div className="e-value">↑ 65%</div></div>
+            <div className="ecom-card" style={{ animationDelay: ".35s" }}><div className="e-label">ROAS</div><div className="e-value">3.8x</div></div>
+            <div className="ecom-card wide" style={{ animationDelay: ".5s" }}><div className="e-label">Orders This Week</div><div className="e-value">🛒 New order received</div></div>
           </div>
-          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Cart Recovered</div>
+          <div className="float-badge" style={{ top: "2%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Cart Recovered</div>
         </div>
       </section>
 
