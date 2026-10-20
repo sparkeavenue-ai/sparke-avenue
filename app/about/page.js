@@ -60,7 +60,7 @@ export default function AboutPage() {
         <div className="svc-visual reveal">
           <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 24, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-              <span style={{ width: 56, height: 56, borderRadius: 16, background: "linear-gradient(135deg, #ffab40, #ff7847)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, color: "#12100c", fontSize: "1.15rem" }}>SA</span>
+              <span style={{ width: 56, height: 56, borderRadius: 16, background: "#ffffff", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", flexShrink: 0 }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 44, height: "auto" }} /></span>
               <div>
                 <div style={{ color: "#fff", fontWeight: 800, letterSpacing: 1.5, fontSize: "1.05rem", lineHeight: 1.2 }}>SPARKE</div>
                 <div style={{ fontWeight: 300, letterSpacing: 5, fontSize: ".82rem", color: "#cbd5e1" }}>AVENUE</div>
