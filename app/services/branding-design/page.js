@@ -60,7 +60,7 @@ export default function BrandingDesignPage() {
             <div style={{ display: "flex", gap: 12, marginBottom: 12 }}>
               <div style={{ flex: 1.4, background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 14, padding: 18 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                  <div style={{ width: 44, height: 44, borderRadius: 12, background: "linear-gradient(135deg, #ffab40, #ff7847)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, color: "#12100c" }}>SA</div>
+                  <span style={{ width: 44, height: 44, borderRadius: 12, background: "#ffffff", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", flexShrink: 0 }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 34, height: "auto" }} /></span>
                   <div>
                     <div style={{ color: "#fff", fontWeight: 800, letterSpacing: 1, fontSize: ".92rem" }}>SPARKE</div>
                     <div style={{ fontWeight: 300, letterSpacing: 3, fontSize: ".78rem", color: "#cbd5e1" }}>AVENUE</div>
@@ -69,7 +69,7 @@ export default function BrandingDesignPage() {
                 <div style={{ color: "var(--muted)", fontSize: ".72rem", marginTop: 12 }}>Primary logo — dark</div>
               </div>
               <div style={{ flex: 1, background: "linear-gradient(135deg, #ffab40, #ff7847)", borderRadius: 14, padding: 18, color: "#12100c" }}>
-                <div style={{ fontWeight: 800, fontSize: "1.5rem" }}>SA</div>
+                <span style={{ display: "inline-flex", width: 52, height: 52, borderRadius: 12, background: "#ffffff", alignItems: "center", justifyContent: "center", overflow: "hidden" }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 40, height: "auto" }} /></span>
                 <div style={{ fontSize: ".72rem", marginTop: 10, fontWeight: 600 }}>Monogram — on brand color</div>
               </div>
             </div>
