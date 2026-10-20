@@ -47,12 +47,54 @@ export default function AboutPage() {
       <section className="svc-hero section">
         <div className="svc-hero-copy">
           <span className="eyebrow">About Sparke Avenue</span>
-          <h1 className="reveal in">The digital marketing company behind ambitious brands.</h1>
+          <h1 className="reveal in">The digital marketing company behind <span style={{ background: "linear-gradient(92deg, #ffab40, #ff7847 45%, #e879f9)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}>ambitious brands.</span></h1>
           <p>Sparke Avenue is a full-service digital marketing agency based in Lahore, Pakistan — built for businesses that demand more than traditional agencies deliver.</p>
           <div className="cta-row">
             <a href="/#contact" className="btn">Work With Us →</a>
             <a href="/#portfolio" className="btn-outline">See Our Work</a>
           </div>
+          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 26 }}>
+            <span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🏢 Founded <b style={{ color: '#fff' }}>2026</b></span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>📍 Pakistan · serving worldwide</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🧩 <b style={{ color: '#fff' }}>8</b> services, one team</span>
+          </div>
+        </div>
+        <div className="svc-visual reveal">
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 24, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+              <span style={{ width: 56, height: 56, borderRadius: 16, background: "linear-gradient(135deg, #ffab40, #ff7847)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, color: "#12100c", fontSize: "1.15rem" }}>SA</span>
+              <div>
+                <div style={{ color: "#fff", fontWeight: 800, letterSpacing: 1.5, fontSize: "1.05rem", lineHeight: 1.2 }}>SPARKE</div>
+                <div style={{ fontWeight: 300, letterSpacing: 5, fontSize: ".82rem", color: "#cbd5e1" }}>AVENUE</div>
+              </div>
+            </div>
+            <div style={{ color: "#fff", marginTop: 16, fontSize: "1.12rem", fontWeight: 700 }}>Create. <span style={{ color: "var(--spark)" }}>Connect.</span> Grow.</div>
+            <p style={{ color: "var(--muted)", fontSize: ".86rem", lineHeight: 1.6, marginTop: 8 }}>Most agencies sell activity — reports, impressions, jargon. We sell outcomes: your budget treated like our own money, everything measured in revenue.</p>
+            <div style={{ marginTop: 20, borderTop: "1px solid rgba(255,255,255,.09)", paddingTop: 18, display: "grid", gap: 12 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <span style={{ width: 40, height: 40, borderRadius: "50%", background: "#fbbf24", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".72rem", color: "#12100c", flexShrink: 0 }}>MS</span>
+                <div>
+                  <div style={{ color: "#fff", fontSize: ".88rem", fontWeight: 700, lineHeight: 1.3 }}>Muhammad Saad</div>
+                  <div style={{ color: "var(--muted)", fontSize: ".74rem" }}>Chief Executive</div>
+                </div>
+                <span style={{ marginLeft: "auto", fontSize: ".66rem", border: "1px solid rgba(255,255,255,.14)", color: "#cbd5e1", borderRadius: 999, padding: "3px 9px" }}>Leadership</span>
+              </div><div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <span style={{ width: 40, height: 40, borderRadius: "50%", background: "#38bdf8", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".72rem", color: "#12100c", flexShrink: 0 }}>HM</span>
+                <div>
+                  <div style={{ color: "#fff", fontSize: ".88rem", fontWeight: 700, lineHeight: 1.3 }}>Hannan Munir</div>
+                  <div style={{ color: "var(--muted)", fontSize: ".74rem" }}>Head of Strategy</div>
+                </div>
+                <span style={{ marginLeft: "auto", fontSize: ".66rem", border: "1px solid rgba(255,255,255,.14)", color: "#cbd5e1", borderRadius: 999, padding: "3px 9px" }}>Strategy</span>
+              </div><div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                <span style={{ width: 40, height: 40, borderRadius: "50%", background: "#a78bfa", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".72rem", color: "#12100c", flexShrink: 0 }}>KA</span>
+                <div>
+                  <div style={{ color: "#fff", fontSize: ".88rem", fontWeight: 700, lineHeight: 1.3 }}>Kamran Abid</div>
+                  <div style={{ color: "var(--muted)", fontSize: ".74rem" }}>Creative Director</div>
+                </div>
+                <span style={{ marginLeft: "auto", fontSize: ".66rem", border: "1px solid rgba(255,255,255,.14)", color: "#cbd5e1", borderRadius: 999, padding: "3px 9px" }}>Creative</span>
+              </div>
+            </div>
+          </div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Est. 2026</div>
+          <div className="float-badge" style={{ bottom: "-4%", left: "2%", top: "auto", right: "auto" }}><span className="dot" />50M+ Impressions</div>
         </div>
       </section>
 
