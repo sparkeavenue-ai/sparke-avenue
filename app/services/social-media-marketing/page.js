@@ -88,20 +88,26 @@ export default function SocialMediaMarketingPage() {
           </div>
         </div>
         <div className="svc-visual reveal">
-          <div className="feed-mock">
-            <div className="feed-post" style={{ animationDelay: ".3s" }}>
-              <div className="fp-top"><div className="fp-avatar" /><div className="fp-line" style={{ width: "50%" }} /></div>
-              <div className="fp-line" style={{ width: "90%" }} />
-              <div className="fp-line" style={{ width: "70%" }} />
-              <div className="fp-stats"><span>❤️ 1.2k</span><span>💬 84</span><span>↗️ 210</span></div>
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
+              <span style={{ color: "#fff", fontWeight: 700 }}>Social Growth</span>
+              <span style={{ background: "rgba(125,216,125,.12)", color: "#7dd87d", border: "1px solid rgba(125,216,125,.35)", borderRadius: 999, padding: "3px 10px", fontSize: ".7rem", fontWeight: 700 }}>+312% this quarter</span>
             </div>
-            <div className="feed-post" style={{ animationDelay: ".6s" }}>
-              <div className="fp-top"><div className="fp-avatar" /><div className="fp-line" style={{ width: "40%" }} /></div>
-              <div className="fp-line" style={{ width: "80%" }} />
-              <div className="fp-stats"><span>❤️ 940</span><span>💬 52</span><span>↗️ 130</span></div>
+            <div style={{ color: "#fff", fontSize: "2rem", fontWeight: 800 }}>128.4K <span style={{ fontSize: ".85rem", color: "#7dd87d", fontWeight: 600 }}>▲ total followers</span></div>
+            <svg viewBox="0 0 320 80" style={{ width: "100%", margin: "12px 0 16px" }}>
+              <defs><linearGradient id="lgSoc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#ffab40" stopOpacity=".35" /><stop offset="1" stopColor="#ffab40" stopOpacity="0" /></linearGradient></defs>
+              <path d="M0,68 L45,60 L90,62 L135,44 L180,38 L225,26 L270,18 L320,6 L320,80 L0,80 Z" fill="url(#lgSoc)" />
+              <path d="M0,68 L45,60 L90,62 L135,44 L180,38 L225,26 L270,18 L320,6" fill="none" stroke="#ffab40" strokeWidth="3" strokeLinecap="round" />
+              <circle cx="320" cy="6" r="4" fill="#ffab40" /><circle cx="180" cy="38" r="3.5" fill="#ffab40" /><circle cx="45" cy="60" r="3.5" fill="#ffab40" />
+            </svg>
+            <div style={{ display: "grid", gap: 9 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}><span>📸</span><span style={{ color: "#fff", fontSize: ".85rem", flex: 1 }}>Instagram</span><b style={{ color: "#fff" }}>64.2K</b><span style={{ color: "#7dd87d", fontSize: ".78rem" }}>+18%</span></div>
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}><span>👍</span><span style={{ color: "#fff", fontSize: ".85rem", flex: 1 }}>Facebook</span><b style={{ color: "#fff" }}>38.5K</b><span style={{ color: "#7dd87d", fontSize: ".78rem" }}>+12%</span></div>
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}><span>🎵</span><span style={{ color: "#fff", fontSize: ".85rem", flex: 1 }}>TikTok</span><b style={{ color: "#fff" }}>21.7K</b><span style={{ color: "#7dd87d", fontSize: ".78rem" }}>+46%</span></div>
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}><span>💼</span><span style={{ color: "#fff", fontSize: ".85rem", flex: 1 }}>LinkedIn</span><b style={{ color: "#fff" }}>8.4K</b><span style={{ color: "#7dd87d", fontSize: ".78rem" }}>+9%</span></div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "2%", right: "0%", animationDelay: ".9s" }}><span className="dot" />Engagement ↑</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Followers ↑</div>
         </div>
       </section>
 
