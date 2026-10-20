@@ -82,21 +82,35 @@ export default function WebDevelopmentPage() {
           </div>
         </div>
         <div className="svc-visual reveal">
-          <div className="browser-mock">
-            <div className="browser-bar">
-              <div className="dots"><span /><span /><span /></div>
-              <div className="url">sparkeavenue.com</div>
-            </div>
-            <div className="browser-body">
-              <div className="wire-line" style={{ width: "60%" }} />
-              <div className="wire-line" style={{ width: "40%" }} />
-              <div className="wire-block" />
-              <div className="wire-line" style={{ width: "80%" }} />
-              <div className="wire-line" style={{ width: "55%" }} />
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ position: "relative", paddingBottom: 8 }}>
+              <div style={{ background: "#111827", border: "1px solid rgba(255,255,255,.14)", borderRadius: 14, overflow: "hidden", marginRight: 70 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, background: "rgba(255,255,255,.05)", padding: "8px 12px" }}>
+                  <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#ff5f57" }} /><span style={{ width: 8, height: 8, borderRadius: "50%", background: "#febc2e" }} /><span style={{ width: 8, height: 8, borderRadius: "50%", background: "#28c840" }} />
+                  <span style={{ marginLeft: 8, color: "var(--muted)", fontSize: ".7rem", background: "rgba(255,255,255,.06)", borderRadius: 6, padding: "2px 10px" }}>🔒 yourstore.pk</span>
+                </div>
+                <div style={{ padding: "16px 18px 20px" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+                    <span style={{ width: 18, height: 18, borderRadius: 5, background: "linear-gradient(135deg, #ffab40, #ff7847)" }} />
+                    <b style={{ color: "#fff", fontSize: ".78rem" }}>YourStore</b>
+                    <span style={{ marginLeft: "auto", color: "var(--muted)", fontSize: ".66rem" }}>Shop · About · Contact</span>
+                  </div>
+                  <div style={{ color: "#fff", fontWeight: 800, fontSize: "1.05rem", lineHeight: 1.25 }}>Shop the new<br />collection ✨</div>
+                  <div style={{ color: "var(--muted)", fontSize: ".72rem", margin: "6px 0 12px" }}>Delivered across Pakistan</div>
+                  <span style={{ background: "#ffab40", color: "#12100c", borderRadius: 8, padding: "5px 12px", fontSize: ".72rem", fontWeight: 700 }}>Shop Now</span>
+                </div>
+              </div>
+              <div style={{ position: "absolute", right: 0, bottom: 0, width: 96, background: "#0f172a", border: "2px solid rgba(255,255,255,.22)", borderRadius: 18, padding: "8px 8px 12px", boxShadow: "0 18px 36px rgba(0,0,0,.5)" }}>
+                <div style={{ width: 30, height: 4, borderRadius: 99, background: "rgba(255,255,255,.3)", margin: "0 auto 8px" }} />
+                <div style={{ width: 18, height: 18, borderRadius: 5, background: "linear-gradient(135deg, #ffab40, #ff7847)", marginBottom: 7 }} />
+                <div style={{ color: "#fff", fontWeight: 800, fontSize: ".62rem", lineHeight: 1.3 }}>Shop the new collection ✨</div>
+                <div style={{ height: 5, width: "80%", background: "rgba(255,255,255,.18)", borderRadius: 99, margin: "7px 0" }} />
+                <div style={{ height: 5, width: "60%", background: "rgba(255,255,255,.18)", borderRadius: 99, marginBottom: 9 }} />
+                <span style={{ background: "#ffab40", color: "#12100c", borderRadius: 6, padding: "3px 9px", fontSize: ".6rem", fontWeight: 700 }}>Shop Now</span>
+              </div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "4%", right: "-2%", animationDelay: ".8s" }}><span className="dot" />Responsive</div>
-          <div className="float-badge blue-dot" style={{ bottom: "8%", left: "-4%", animationDelay: "1.2s" }}><span className="dot" />Fast Load</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Fully Responsive</div>
         </div>
       </section>
 
