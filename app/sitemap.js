@@ -1,3 +1,5 @@
+import { POSTS } from "./blog/posts";
+
 export default function sitemap() {
   const pages = [
     { path: '', priority: 1, changeFrequency: 'weekly' },
@@ -14,13 +16,16 @@ export default function sitemap() {
     { path: '/services/ecommerce-marketing', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/services/digital-strategy', priority: 0.8, changeFrequency: 'monthly' },
     { path: '/blog', priority: 0.7, changeFrequency: 'weekly' },
-    { path: '/blog/choosing-digital-marketing-agency-pakistan', priority: 0.7, changeFrequency: 'monthly' },
-    { path: '/blog/seo-vs-paid-ads-pakistan', priority: 0.7, changeFrequency: 'monthly' },
-  ]
+    ...POSTS.map((p) => ({
+      path: `/blog/${p.slug}`,
+      priority: 0.7,
+      changeFrequency: 'monthly',
+    })),
+  ];
   return pages.map((p) => ({
     url: `https://sparkeavenue.com${p.path}`,
     lastModified: new Date(),
     changeFrequency: p.changeFrequency,
     priority: p.priority,
-  }))
+  }));
 }
