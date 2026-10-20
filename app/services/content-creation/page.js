@@ -56,23 +56,38 @@ export default function ContentCreationPage() {
           </div>
         </div>
         <div className="svc-visual reveal">
-          <div className="studio-mock">
-            <div className="studio-frame" style={{ animationDelay: ".3s" }}>
-              <div className="play">▶</div>
-              <div style={{ flex: 1 }}>
-                <div className="wire-line" style={{ width: "70%" }} />
-                <div className="wire-line" style={{ width: "45%" }} />
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+              <span style={{ color: "#fff", fontWeight: 700 }}>October Content Plan</span>
+              <span style={{ background: "rgba(255,171,64,.15)", color: "#ffab40", border: "1px solid rgba(255,171,64,.4)", borderRadius: 999, padding: "3px 10px", fontSize: ".7rem", fontWeight: 700 }}>28 posts scheduled</span>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+              <div style={{ background: "rgba(168,85,247,.1)", border: "1px solid rgba(168,85,247,.35)", borderRadius: 12, padding: 12 }}>
+                <div style={{ fontSize: ".68rem", color: "#c084fc", fontWeight: 700 }}>MON · 🎬 REEL</div>
+                <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600, marginTop: 5 }}>3 SEO mistakes</div>
+                <div style={{ fontSize: ".7rem", color: "#7dd87d", marginTop: 4 }}>✓ Posted</div>
+              </div>
+              <div style={{ background: "rgba(255,171,64,.08)", border: "1px solid rgba(255,171,64,.35)", borderRadius: 12, padding: 12 }}>
+                <div style={{ fontSize: ".68rem", color: "#ffab40", fontWeight: 700 }}>WED · 🖼️ CAROUSEL</div>
+                <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600, marginTop: 5 }}>Brand growth tips</div>
+                <div style={{ fontSize: ".7rem", color: "#7dd87d", marginTop: 4 }}>✓ Posted</div>
+              </div>
+              <div style={{ background: "rgba(56,189,248,.08)", border: "1px solid rgba(56,189,248,.35)", borderRadius: 12, padding: 12 }}>
+                <div style={{ fontSize: ".68rem", color: "#38bdf8", fontWeight: 700 }}>FRI · 🎬 REEL</div>
+                <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600, marginTop: 5 }}>Client results 📈</div>
+                <div style={{ fontSize: ".7rem", color: "#ffab40", marginTop: 4 }}>◐ In editing</div>
+              </div>
+              <div style={{ background: "rgba(255,255,255,.04)", border: "1px solid rgba(255,255,255,.12)", borderRadius: 12, padding: 12 }}>
+                <div style={{ fontSize: ".68rem", color: "#cbd5e1", fontWeight: 700 }}>SUN · 📸 STORY</div>
+                <div style={{ color: "#fff", fontSize: ".82rem", fontWeight: 600, marginTop: 5 }}>Poll + Q&amp;A</div>
+                <div style={{ fontSize: ".7rem", color: "var(--muted)", marginTop: 4 }}>○ Scheduled</div>
               </div>
             </div>
-            <div className="studio-frame" style={{ animationDelay: ".55s" }}>
-              <div className="play">▶</div>
-              <div style={{ flex: 1 }}>
-                <div className="wire-line" style={{ width: "60%" }} />
-                <div className="wire-line" style={{ width: "35%" }} />
-              </div>
+            <div style={{ display: "flex", gap: 10, marginTop: 14 }}>
+              <div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>28</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>Posts / month</span></div><div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>12</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>Reels</span></div><div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>98%</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>On-time</span></div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "6%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Reel Ready</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Planned Content</div>
         </div>
       </section>
 
