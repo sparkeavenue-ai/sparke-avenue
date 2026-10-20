@@ -56,15 +56,39 @@ export default function BrandingDesignPage() {
           </div>
         </div>
         <div className="svc-visual reveal">
-          <div className="brand-board">
-            <div className="swatch" style={{ background: "linear-gradient(135deg,#4c7cf0,#1c2f5c)", animationDelay: ".2s" }} />
-            <div className="swatch" style={{ background: "linear-gradient(135deg,#ffab40,#7a4b0f)", animationDelay: ".35s" }} />
-            <div className="type-card" style={{ animationDelay: ".5s" }}>
-              <div className="big">Aa</div>
-              <div className="small">Typography System</div>
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", gap: 12, marginBottom: 12 }}>
+              <div style={{ flex: 1.4, background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 14, padding: 18 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <div style={{ width: 44, height: 44, borderRadius: 12, background: "linear-gradient(135deg, #ffab40, #ff7847)", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, color: "#12100c" }}>SA</div>
+                  <div>
+                    <div style={{ color: "#fff", fontWeight: 800, letterSpacing: 1, fontSize: ".92rem" }}>SPARKE</div>
+                    <div style={{ fontWeight: 300, letterSpacing: 3, fontSize: ".78rem", color: "#cbd5e1" }}>AVENUE</div>
+                  </div>
+                </div>
+                <div style={{ color: "var(--muted)", fontSize: ".72rem", marginTop: 12 }}>Primary logo — dark</div>
+              </div>
+              <div style={{ flex: 1, background: "linear-gradient(135deg, #ffab40, #ff7847)", borderRadius: 14, padding: 18, color: "#12100c" }}>
+                <div style={{ fontWeight: 800, fontSize: "1.5rem" }}>SA</div>
+                <div style={{ fontSize: ".72rem", marginTop: 10, fontWeight: 600 }}>Monogram — on brand color</div>
+              </div>
+            </div>
+            <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
+              <div style={{ flex: 1, height: 38, borderRadius: 9, background: "#ffab40" }} />
+              <div style={{ flex: 1, height: 38, borderRadius: 9, background: "#ff7847" }} />
+              <div style={{ flex: 1, height: 38, borderRadius: 9, background: "#a855f7" }} />
+              <div style={{ flex: 1, height: 38, borderRadius: 9, background: "#38bdf8" }} />
+              <div style={{ flex: 1, height: 38, borderRadius: 9, background: "#0f172a", border: "1px solid rgba(255,255,255,.15)" }} />
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 16, background: "rgba(255,255,255,.04)", border: "1px solid rgba(255,255,255,.08)", borderRadius: 14, padding: "14px 16px" }}>
+              <span style={{ color: "#fff", fontSize: "2.1rem", fontWeight: 800 }}>Aa</span>
+              <div>
+                <div style={{ color: "#fff", fontSize: ".85rem", fontWeight: 600 }}>Clash Display · Satoshi</div>
+                <div style={{ color: "var(--muted)", fontSize: ".75rem" }}>Complete brand kit: logo suite, colors, fonts, guidelines</div>
+              </div>
             </div>
           </div>
-          <div className="float-badge" style={{ top: "4%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Logo Concepts</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Brand Identity</div>
         </div>
       </section>
 
