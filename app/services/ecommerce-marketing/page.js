@@ -63,12 +63,24 @@ export default function EcommerceMarketingPage() {
           </div>
         </div>
         <div className="svc-visual reveal">
-          <div className="ecom-mock">
-            <div className="ecom-card" style={{ animationDelay: ".2s" }}><div className="e-label">Revenue</div><div className="e-value">↑ 65%</div></div>
-            <div className="ecom-card" style={{ animationDelay: ".35s" }}><div className="e-label">ROAS</div><div className="e-value">3.8x</div></div>
-            <div className="ecom-card wide" style={{ animationDelay: ".5s" }}><div className="e-label">Orders This Week</div><div className="e-value">🛒 New order received</div></div>
+          <div style={{ background: "linear-gradient(160deg, rgba(255,255,255,.07), rgba(255,255,255,.02))", border: "1px solid rgba(255,255,255,.12)", borderRadius: 20, padding: 22, boxShadow: "0 30px 60px rgba(0,0,0,.35)" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 6 }}>
+              <span style={{ color: "#fff", fontWeight: 700 }}>Store Performance</span>
+              <span style={{ color: "#7dd87d", fontSize: ".75rem", fontWeight: 700 }}>● LIVE</span>
+            </div>
+            <div style={{ color: "#fff", fontSize: "1.9rem", fontWeight: 800 }}>PKR 1.84M <span style={{ fontSize: ".85rem", color: "#7dd87d", fontWeight: 600 }}>▲ 64% this month</span></div>
+            <div style={{ display: "flex", alignItems: "flex-end", gap: 8, height: 90, margin: "16px 0 6px" }}>
+              <div style={{ flex: 1, height: "32%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.55 }} /><div style={{ flex: 1, height: "44%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.65 }} /><div style={{ flex: 1, height: "40%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.6 }} /><div style={{ flex: 1, height: "58%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.75 }} /><div style={{ flex: 1, height: "70%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.85 }} /><div style={{ flex: 1, height: "82%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 0.92 }} /><div style={{ flex: 1, height: "100%", background: "linear-gradient(180deg, #ffab40, #ff7847)", borderRadius: "6px 6px 0 0", opacity: 1 }} />
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <span style={{ color: "var(--muted)", fontSize: ".68rem" }}>WEEK 1</span>
+              <span style={{ color: "var(--muted)", fontSize: ".68rem" }}>WEEK 4</span>
+            </div>
+            <div style={{ display: "flex", gap: 10, marginTop: 14 }}>
+              <div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>1,284</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>Orders</span></div><div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>3.8%</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>Conversion</span></div><div style={{ flex: 1, background: "rgba(255,255,255,.05)", borderRadius: 12, padding: 10, textAlign: "center" }}><b style={{ display: "block", color: "#fff", fontSize: "1rem" }}>PKR 6,450</b><span style={{ color: "var(--muted)", fontSize: ".68rem" }}>Avg. order</span></div>
+            </div>
           </div>
-          <div className="float-badge" style={{ top: "2%", right: "-2%", animationDelay: ".9s" }}><span className="dot" />Cart Recovered</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />Sales ↑</div>
         </div>
       </section>
 
