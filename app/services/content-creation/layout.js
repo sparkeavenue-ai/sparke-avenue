@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Content Creation Services Pakistan | Sparke Avenue",
   description: "Ad creatives, copywriting, video and blogs that sell. Content creation engine by Sparke Avenue.",
+  alternates: { canonical: "/services/content-creation" },
 };
 
 export default function Layout({ children }) {
