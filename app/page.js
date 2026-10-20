@@ -190,26 +190,71 @@ export default function Home() {
             <a href="#contact" className="btn">Start a Project →</a>
             <a href="#portfolio" className="btn-outline">View Client Work</a>
           </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 30, opacity: 0, animation: "fadeUp .9s cubic-bezier(.16,1,.3,1) forwards", animationDelay: ".75s" }}>
+            <span style={{ color: "var(--spark)", letterSpacing: 2, fontSize: ".92rem" }}>★★★★★</span>
+            <span style={{ color: "var(--muted)", fontSize: ".83rem", lineHeight: 1.5 }}><strong style={{ color: "#fff" }}>Trusted by growing brands</strong><br />Jewellery, retail, manufacturing, fashion &amp; B2B</span>
+          </div>
         </div>
-        <div className="avenue-visual">
-          <svg viewBox="0 0 400 500" fill="none">
-            <defs>
-              <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-                <feGaussianBlur stdDeviation="6" result="blur" />
-                <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-              </filter>
-            </defs>
-            <path d={AVENUE_PATH} stroke="rgba(255,255,255,0.12)" strokeWidth="2" strokeDasharray="2 10" strokeLinecap="round" />
-            <circle r="7" fill="#ffab40" filter="url(#glow)">
-              <animateMotion dur="7s" repeatCount="indefinite" path={AVENUE_PATH} />
-            </circle>
-          </svg>
-          <span className="way-tag" style={{ top: "6%", left: "24%", animationDelay: "1s" }}>SEO</span>
-          <span className="way-tag" style={{ top: "34%", right: "6%", animationDelay: "1.4s" }}>ADS</span>
-          <span className="way-tag" style={{ top: "62%", left: "58%", animationDelay: "1.8s" }}>SMM</span>
-          <span className="way-tag" style={{ bottom: "8%", left: "6%", animationDelay: "2.2s" }}>WEB</span>
+        <div style={{ position: "relative" }}>
+          <div style={{ background: "linear-gradient(165deg, rgba(255,255,255,.1), rgba(255,255,255,.03))", border: "1px solid rgba(255,255,255,.14)", borderRadius: 23, padding: 24, boxShadow: "0 34px 80px rgba(0,0,0,.48)" }}>
+            <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 18, paddingBottom: 19, borderBottom: "1px solid rgba(255,255,255,.09)" }}>
+              <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+                <span style={{ width: 52, height: 40, background: "#fff", borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", flexShrink: 0 }}><img src="/logo-mark.png" alt="Sparke Avenue logo" style={{ width: 44, height: "auto" }} /></span>
+                <div>
+                  <div style={{ color: "#fff", fontWeight: 700, fontSize: ".98rem" }}>Growth Command Center</div>
+                  <div style={{ color: "var(--muted)", fontSize: ".74rem", marginTop: 4 }}>One view of every channel that matters</div>
+                </div>
+              </div>
+              <span style={{ color: "#7dd87d", fontSize: ".7rem", fontWeight: 800, letterSpacing: ".8px" }}>● LIVE</span>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 11, marginTop: 19 }}>
+              <div style={{ background: "rgba(255,255,255,.045)", border: "1px solid rgba(255,255,255,.075)", borderRadius: 15, padding: 14 }}><small style={{ color: "var(--muted)", fontSize: ".65rem", fontWeight: 700, letterSpacing: ".7px", textTransform: "uppercase" }}>Revenue Growth</small><b style={{ display: "block", color: "#fff", fontSize: "1.28rem", margin: "7px 0 4px" }}>+64%</b><span style={{ fontSize: ".7rem", color: "#7dd87d", fontWeight: 700 }}>Last 30 days</span></div><div style={{ background: "rgba(255,255,255,.045)", border: "1px solid rgba(255,255,255,.075)", borderRadius: 15, padding: 14 }}><small style={{ color: "var(--muted)", fontSize: ".65rem", fontWeight: 700, letterSpacing: ".7px", textTransform: "uppercase" }}>Ad Return</small><b style={{ display: "block", color: "#fff", fontSize: "1.28rem", margin: "7px 0 4px" }}>4.8x</b><span style={{ fontSize: ".7rem", color: "#7dd87d", fontWeight: 700 }}>Blended ROAS</span></div><div style={{ background: "rgba(255,255,255,.045)", border: "1px solid rgba(255,255,255,.075)", borderRadius: 15, padding: 14 }}><small style={{ color: "var(--muted)", fontSize: ".65rem", fontWeight: 700, letterSpacing: ".7px", textTransform: "uppercase" }}>Qualified Leads</small><b style={{ display: "block", color: "#fff", fontSize: "1.28rem", margin: "7px 0 4px" }}>+340%</b><span style={{ fontSize: ".7rem", color: "#7dd87d", fontWeight: 700 }}>Peak growth</span></div>
+            </div>
+            <div style={{ marginTop: 12, background: "rgba(4,8,16,.34)", border: "1px solid rgba(255,255,255,.075)", borderRadius: 16, padding: 17 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <span style={{ color: "#fff", fontWeight: 700, fontSize: ".84rem" }}>Performance Momentum</span>
+                <span style={{ color: "var(--muted)", fontSize: ".7rem" }}>Jan — Jun</span>
+              </div>
+              <svg viewBox="0 0 520 150" style={{ width: "100%", height: 110, marginTop: 8 }} role="img" aria-label="Upward performance chart">
+                <defs>
+                  <linearGradient id="heroArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#ffab40" stopOpacity=".32" /><stop offset="1" stopColor="#ffab40" stopOpacity="0" /></linearGradient>
+                  <linearGradient id="heroLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stopColor="#ffab40" /><stop offset=".55" stopColor="#ff7847" /><stop offset="1" stopColor="#e879f9" /></linearGradient>
+                </defs>
+                <g stroke="rgba(255,255,255,.07)"><line x1="0" y1="28" x2="520" y2="28" /><line x1="0" y1="68" x2="520" y2="68" /><line x1="0" y1="108" x2="520" y2="108" /></g>
+                <path d="M0 124 C55 116,78 104,118 101 C162 98,184 76,228 72 C274 68,300 50,348 43 C397 36,438 29,520 10 L520 150 L0 150 Z" fill="url(#heroArea)" />
+                <path d="M0 124 C55 116,78 104,118 101 C162 98,184 76,228 72 C274 68,300 50,348 43 C397 36,438 29,520 10" fill="none" stroke="url(#heroLine)" strokeWidth="4" strokeLinecap="round" />
+                <circle cx="348" cy="43" r="5" fill="#0a0f1c" stroke="#ffab40" strokeWidth="3" /><circle cx="520" cy="10" r="5" fill="#e879f9" />
+              </svg>
+              <div style={{ marginTop: 12, display: "grid", gap: 13 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "92px 1fr 48px", gap: 12, alignItems: "center", fontSize: ".76rem" }}><span style={{ color: "#c7d0df", fontWeight: 600 }}>SEO Growth</span><div style={{ height: 7, background: "rgba(255,255,255,.09)", borderRadius: 99, overflow: "hidden" }}><div style={{ height: "100%", width: "88%", borderRadius: 99, background: "#ffab40" }} /></div><b style={{ textAlign: "right", color: "#fff", fontSize: ".78rem" }}>+340%</b></div><div style={{ display: "grid", gridTemplateColumns: "92px 1fr 48px", gap: 12, alignItems: "center", fontSize: ".76rem" }}><span style={{ color: "#c7d0df", fontWeight: 600 }}>Paid Media</span><div style={{ height: 7, background: "rgba(255,255,255,.09)", borderRadius: 99, overflow: "hidden" }}><div style={{ height: "100%", width: "76%", borderRadius: 99, background: "#ff7847" }} /></div><b style={{ textAlign: "right", color: "#fff", fontSize: ".78rem" }}>4.8x</b></div><div style={{ display: "grid", gridTemplateColumns: "92px 1fr 48px", gap: 12, alignItems: "center", fontSize: ".76rem" }}><span style={{ color: "#c7d0df", fontWeight: 600 }}>Social Reach</span><div style={{ height: 7, background: "rgba(255,255,255,.09)", borderRadius: 99, overflow: "hidden" }}><div style={{ height: "100%", width: "68%", borderRadius: 99, background: "#e879f9" }} /></div><b style={{ textAlign: "right", color: "#fff", fontSize: ".78rem" }}>+312%</b></div>
+              </div>
+            </div>
+            <div style={{ display: "flex", gap: 12, alignItems: "center", marginTop: 16, padding: 14, borderRadius: 15, background: "rgba(255,171,64,.07)", border: "1px solid rgba(255,171,64,.18)" }}>
+              <span style={{ width: 35, height: 35, flexShrink: 0, borderRadius: 11, background: "var(--spark)", color: "#191004", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 900 }}>↗</span>
+              <div>
+                <div style={{ color: "#fff", fontWeight: 700, fontSize: ".8rem" }}>Always optimizing</div>
+                <div style={{ color: "var(--muted)", fontSize: ".72rem", marginTop: 3, lineHeight: 1.45 }}>Weekly testing across creative, audiences and landing pages — no set-and-forget campaigns.</div>
+              </div>
+            </div>
+          </div>
+          <div className="float-badge" style={{ top: "-3%", right: "2%" }}><span className="dot" />50M+ Impressions Driven</div>
+          <div className="float-badge" style={{ bottom: "-3%", left: "2%", top: "auto", right: "auto" }}><span className="dot" />8 Disciplines · One Team</div>
         </div>
+      
       </section>
+
+      {/* Client Strip */}
+      <div style={{ textAlign: "center", padding: "26px 20px 6px" }}>
+        <div style={{ color: "var(--muted)", fontSize: ".68rem", fontWeight: 800, letterSpacing: "1.7px", marginBottom: 14 }}>BRANDS WE HELP GROW</div>
+        <div style={{ display: "flex", justifyContent: "center", gap: 26, flexWrap: "wrap", color: "#c5cedd", fontSize: ".95rem" }}>
+          <span style={{ fontFamily: "Georgia, serif" }}>Jewellista.pk</span>
+          <span style={{ fontWeight: 800, letterSpacing: ".4px" }}>WAHEED JEWELLERS</span>
+          <span style={{ letterSpacing: "2px", fontSize: ".84rem" }}>AZMAT CABLES</span>
+          <span style={{ fontFamily: "Georgia, serif", fontStyle: "italic" }}>Zarnoor Collection</span>
+          <span style={{ fontFamily: "Georgia, serif" }}>Majid Silver &amp; Gold</span>
+          <span style={{ fontWeight: 800 }}>FPUL ALLIANCE</span>
+        </div>
+      </div>
 
       {/* Marquee Track */}
       <div className="marquee-wrap">
