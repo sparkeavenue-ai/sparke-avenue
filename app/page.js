@@ -11,14 +11,14 @@ import { WHATSAPP_CONFIG } from "./config/whatsapp.js";
 import { handleWhatsAppSubmit, sanitizeInput } from "./utils/whatsapp.js";
 
 const SERVICES = [
-  { tag: "ADS", title: "Performance Marketing", desc: "Targeted Meta & Google Ads campaigns designed to generate qualified leads, high-volume sales, and measurable ROAS.", featured: true, href: "/services/performance-marketing" },
-  { tag: "WEB", title: "Web Development", desc: "Modern, ultra-responsive and lightning-fast websites — from custom e-commerce stores to corporate digital portals.", href: "/services/web-development" },
-  { tag: "SMM", title: "Social Media Marketing", desc: "Managing and growing authoritative presence across Instagram, Facebook, TikTok, and LinkedIn with viral content.", href: "/services/social-media-marketing" },
-  { tag: "SEO", title: "SEO Services", desc: "On-page, technical, and local SEO to dominate organic search rankings and capture high-intent inbound search traffic.", href: "/services/seo-services" },
-  { tag: "BRAND", title: "Branding & Design", desc: "Memorable brand identities, distinctive logos, and cohesive design systems that command authority.", href: "/services/branding-design" },
-  { tag: "CONTENT", title: "Content Creation", desc: "High-end copywriting, 4K video shoots, viral reels, and creative assets that captivate your audience.", href: "/services/content-creation" },
-  { tag: "ECOM", title: "E-Commerce Marketing", desc: "Full-funnel growth strategies that maximize conversion rates, average order value, and recurring revenue.", href: "/services/ecommerce-marketing" },
-  { tag: "STRATEGY", title: "Digital Strategy", desc: "Data-backed roadmaps and media planning that turn ambitious ideas into predictable, sustainable growth.", href: "/services/digital-strategy" },
+  { tag: "ADS", icon: "target", title: "Performance Marketing", desc: "Targeted Meta & Google Ads campaigns designed to generate qualified leads, high-volume sales, and measurable ROAS.", featured: true, href: "/services/performance-marketing" },
+  { tag: "WEB", icon: "layout", title: "Web Development", desc: "Modern, ultra-responsive and lightning-fast websites — from custom e-commerce stores to corporate digital portals.", href: "/services/web-development" },
+  { tag: "SMM", icon: "users", title: "Social Media Marketing", desc: "Managing and growing authoritative presence across Instagram, Facebook, TikTok, and LinkedIn with viral content.", href: "/services/social-media-marketing" },
+  { tag: "SEO", icon: "search", title: "SEO Services", desc: "On-page, technical, and local SEO to dominate organic search rankings and capture high-intent inbound search traffic.", href: "/services/seo-services" },
+  { tag: "BRAND", icon: "palette", title: "Branding & Design", desc: "Memorable brand identities, distinctive logos, and cohesive design systems that command authority.", href: "/services/branding-design" },
+  { tag: "CONTENT", icon: "video", title: "Content Creation", desc: "High-end copywriting, 4K video shoots, viral reels, and creative assets that captivate your audience.", href: "/services/content-creation" },
+  { tag: "ECOM", icon: "cart", title: "E-Commerce Marketing", desc: "Full-funnel growth strategies that maximize conversion rates, average order value, and recurring revenue.", href: "/services/ecommerce-marketing" },
+  { tag: "STRATEGY", icon: "trending", title: "Digital Strategy", desc: "Data-backed roadmaps and media planning that turn ambitious ideas into predictable, sustainable growth.", href: "/services/digital-strategy" },
 ];
 
 const PROCESS = [
@@ -391,7 +391,7 @@ export default function Home() {
           {SERVICES.map((s) =>
             s.href ? (
               <Link href={s.href} className={`card reveal ${s.featured ? "featured" : ""}`} key={s.tag}>
-                <span className="tag">{s.tag}</span>
+                <span className="svc-icon-tile"><Icon name={s.icon} size={s.featured ? 34 : 30} /></span>
                 <div>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
@@ -399,7 +399,7 @@ export default function Home() {
               </Link>
             ) : (
               <div className={`card reveal ${s.featured ? "featured" : ""}`} key={s.tag}>
-                <span className="tag">{s.tag}</span>
+                <span className="svc-icon-tile"><Icon name={s.icon} size={s.featured ? 34 : 30} /></span>
                 <div>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
