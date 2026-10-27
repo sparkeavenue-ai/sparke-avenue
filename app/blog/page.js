@@ -65,7 +65,7 @@ export default function BlogPage() {
             </div>
             </>); })()}
           </div>
-          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />3 Guides &amp; Growing</div>
+          <div className="float-badge" style={{ top: "-4%", right: "2%" }}><span className="dot" />4 Guides &amp; Growing</div>
           <div className="float-badge" style={{ bottom: "-4%", left: "2%", top: "auto", right: "auto" }}><span className="dot" />New Article Every 2 Weeks</div>
         </div>
       </section>
