@@ -485,11 +485,11 @@ export default function Home() {
           <h2 className="section-title">Latest From The Blog</h2>
         </div>
         <div className="svc-grid">
-          <a href="/blog/choosing-digital-marketing-agency-pakistan" className="reveal" style={{ textDecoration: "none" }}>
+          <a href="/blog/social-media-marketing-pakistan-2026" className="reveal" style={{ textDecoration: "none" }}>
             <div className="svc-card" style={{ height: "100%" }}>
               <span className="eyebrow" style={{ marginBottom: 12 }}>Guide</span>
-              <h3>How to Choose a Digital Marketing Agency in Pakistan: 7 Questions to Ask</h3>
-              <p>The right agency grows your revenue; the wrong one burns your budget on jargon.</p>
+              <h3>Social Media Marketing in Pakistan: The Complete Guide for Businesses (2026)</h3>
+              <p>Which platforms work, what good content looks like, and how to measure real results.</p>
               <span style={{ color: "var(--spark)", fontSize: ".9rem" }}>Read article →</span>
             </div>
           </a>
