@@ -82,6 +82,38 @@ export const POSTS = [
       { p: "A PKR 200,000/month engagement that generates PKR 1,000,000 in sales is cheap. A PKR 30,000/month one that generates nothing is expensive. Always ask an agency: what will this earn me, and how will we measure it?" },
     ],
   },
+  {
+    slug: "social-media-marketing-pakistan-2026",
+    title: "Social Media Marketing in Pakistan: The Complete Guide for Businesses (2026)",
+    excerpt:
+      "Social media marketing in Pakistan explained — which platforms work, what good content looks like, realistic costs, and how to measure results that actually grow your business.",
+    date: "Oct 27, 2026",
+    readTime: "6 min read",
+    keyword: "social media marketing Pakistan",
+    blocks: [
+      { p: "Your customers are on social media every day — scrolling Facebook over chai, watching TikTok reels late at night, checking Instagram before they buy anything. The question is not whether your business should be there. It is whether you are there with a plan, or just posting and hoping." },
+      { h: "Which Platform Should Your Business Use?" },
+      { p: "Not every platform fits every business. Here is the honest breakdown for Pakistan:" },
+      { list: ["Facebook — still the largest audience in Pakistan, and the best for local reach, community groups and Meta ads. If your customers are everyday consumers, start here.", "Instagram — the home of visual brands: fashion, jewellery, food, beauty, lifestyle. Reels drive discovery; stories drive trust.", "TikTok — the fastest-growing platform, especially for younger audiences. Short video is now the cheapest way to reach thousands of new people.", "LinkedIn — for B2B. If you sell to businesses, not consumers, this is where your buyers actually read.", "WhatsApp — not a posting platform, but the place where Pakistani customers actually ask questions and place orders. Your social media should drive people here."] },
+      { p: "Most small businesses do best starting with two platforms done well, not five done badly." },
+      { h: "What Good Social Media Marketing Actually Includes" },
+      { p: "Posting a photo every day is not a strategy. A real social media service covers:" },
+      { list: ["Content planning — a monthly calendar built around your products, seasons and customers' questions.", "Content creation — designed posts, reels and captions that sound like your brand, not a template.", "Community management — replying to comments and DMs quickly. In Pakistan, a DM answered late is often a sale lost.", "Paid promotion — boosting the right posts to the right audience, with the ad budget decided by you.", "Reporting — plain-language numbers: how many people saw you, how many messaged, how many bought."] },
+      { h: "How Much Does Social Media Marketing Cost in Pakistan?" },
+      { p: "Typical market ranges:" },
+      { list: ["Content-only (posts, reels, calendar): PKR 40,000–100,000/month", "Full management (content + community + ads): PKR 100,000–250,000/month"] },
+      { p: "At Sparke Avenue, our monthly social media plans start from PKR 15,000/month — Social Media Management, Content Creation and Content Planning. (SEO, web development and other services are quoted separately.)" },
+      { p: "Remember: the service fee and the ad budget are two different things. Any paid promotion budget is separate, and you decide it." },
+      { h: "5 Mistakes Pakistani Businesses Make on Social Media" },
+      { list: ["Posting without a plan — random posts, random times, no connection to what you sell.", "Buying followers — fake followers never buy anything, and they destroy your reach.", "Only selling, never helping — if every post is \"BUY NOW\", people stop reading. Teach, entertain, then sell.", "Ignoring comments and DMs — social media is a conversation. Silence is an answer, and it is the wrong one.", "No call to action — every post should tell people what to do next: message us, visit the store, check the link."] },
+      { h: "How Do You Know It Is Working?" },
+      { p: "Do not judge social media by likes. Judge it by this order:" },
+      { list: ["Reach — are new people discovering you?", "Messages and enquiries — are people asking about your products?", "Sales — are those enquiries turning into orders?"] },
+      { p: "If reach is growing but nobody messages, your content is entertaining but not selling. If people message but do not buy, the problem is usually your reply speed or your prices — not the posts." },
+      { h: "DIY or Hire an Agency?" },
+      { p: "Doing it yourself works if you have 1–2 hours a day and you enjoy creating content. Most business owners do not — they are running the business. An agency makes sense when you want consistency without hiring a full-time social media manager, and when you want someone accountable for results every month." },
+    ],
+  },
 ];
 
 export function getPost(slug) {
