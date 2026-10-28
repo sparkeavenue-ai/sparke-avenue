@@ -165,7 +165,7 @@ export default function EcommerceMarketingPage() {
         <div className="case-study-card reveal">
           <div>
             <span className="eyebrow">Zarnoor Collection — Fashion Boutique</span>
-            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "#fff", marginBottom: 12 }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "var(--text)", marginBottom: 12 }}>
               Omnichannel Performance Ads &amp; High-Velocity Order Scaling
             </h3>
             <p style={{ color: "var(--muted)", fontSize: ".95rem", lineHeight: 1.6, marginBottom: 24 }}>
@@ -187,7 +187,7 @@ export default function EcommerceMarketingPage() {
               <span style={{ fontFamily: "var(--font-mono)", fontSize: ".72rem", color: "var(--spark)", textTransform: "uppercase", letterSpacing: 1 }}>
                 Growth Channels
               </span>
-              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.05rem", marginTop: 4 }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.05rem", marginTop: 4 }}>
                 Meta, TikTok, Retargeting &amp; COD Ops
               </h4>
             </div>
