@@ -554,12 +554,12 @@ footer a:hover { color: var(--spark); }
   --line-strong: rgba(13, 21, 38, 0.22);
   --text: #0d1526;
   --muted: #4b5568;
-  --muted-2: #7c8698;
+  --muted-2: #5b6675;
   --blue: #2f63e7;
   --blue-soft: rgba(47, 99, 231, 0.1);
-  --spark: #f59e0b;
-  --spark-soft: rgba(245, 158, 11, 0.14);
-  --spark-glow: rgba(245, 158, 11, 0.35);
+  --spark: #b45309;
+  --spark-soft: rgba(180, 83, 9, 0.14);
+  --spark-glow: rgba(180, 83, 9, 0.35);
 }
 [data-theme="light"] nav { background: rgba(255, 255, 255, 0.85); }
 [data-theme="light"] .bg-grid { opacity: 0.35; }
@@ -586,6 +586,11 @@ footer a:hover { color: var(--spark); }
 [data-theme="light"] .final-cta h2,
 [data-theme="light"] .brand-card-content h4,
 [data-theme="light"] .portfolio-card h4 { color: #0d1526; }
+/* Floating dark badges keep light text on their dark pill */
+[data-theme="light"] .float-badge { color: #f3f5fa; }
+/* Hero showcase cards are dark by design (their inner text is white);
+   keep them dark in light mode instead of turning them white. */
+[data-theme="light"] [style*="linear-gradient(160deg"] { background: #10152b !important; }
 [data-theme="light"] input,
 [data-theme="light"] textarea,
 [data-theme="light"] select,
