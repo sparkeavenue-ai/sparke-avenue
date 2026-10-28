@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 function Block({ block }) {
   if (block.h) {
-    return <h2 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.45rem", margin: "44px 0 16px" }}>{block.h}</h2>;
+    return <h2 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.45rem", margin: "44px 0 16px" }}>{block.h}</h2>;
   }
   if (block.list) {
     return (
@@ -27,7 +27,7 @@ function Block({ block }) {
           <thead>
             <tr>
               {block.table.head.map((h, i) => (
-                <th key={i} style={{ textAlign: "left", padding: "12px 14px", borderBottom: "1px solid rgba(255,255,255,.15)", color: "#fff", fontFamily: "var(--font-display)" }}>{h}</th>
+                <th key={i} style={{ textAlign: "left", padding: "12px 14px", borderBottom: "1px solid var(--line)", color: "var(--text)", fontFamily: "var(--font-display)" }}>{h}</th>
               ))}
             </tr>
           </thead>
@@ -71,7 +71,7 @@ export default function BlogPostPage({ params }) {
         <Link href="/blog" style={{ color: "var(--spark)", fontSize: ".9rem", textDecoration: "none" }}>← All articles</Link>
         <div style={{ marginTop: 20 }}>
           <span className="eyebrow">{post.date} · {post.readTime}</span>
-          <h1 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "2.2rem", lineHeight: 1.25, margin: "14px 0 8px" }}>{post.title}</h1>
+          <h1 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "2.2rem", lineHeight: 1.25, margin: "14px 0 8px" }}>{post.title}</h1>
         </div>
         <div className="road-divider" style={{ margin: "28px 0" }} />
         <div>
