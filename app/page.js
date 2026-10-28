@@ -192,10 +192,10 @@ export default function Home() {
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 30, opacity: 0, animation: "fadeUp .9s cubic-bezier(.16,1,.3,1) forwards", animationDelay: ".75s" }}>
             <span style={{ color: "var(--spark)", letterSpacing: 2, fontSize: ".92rem" }}>★★★★★</span>
-            <span style={{ color: "var(--muted)", fontSize: ".83rem", lineHeight: 1.5 }}><strong style={{ color: "#fff" }}>Trusted by growing brands</strong><br />Jewellery, retail, manufacturing, fashion &amp; B2B</span>
+            <span style={{ color: "var(--muted)", fontSize: ".83rem", lineHeight: 1.5 }}><strong style={{ color: "var(--text)" }}>Trusted by growing brands</strong><br />Jewellery, retail, manufacturing, fashion &amp; B2B</span>
           </div>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 24, opacity: 0, animation: "fadeUp .9s cubic-bezier(.16,1,.3,1) forwards", animationDelay: ".85s" }}>
-            <span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>SEO</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Paid Ads</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Social Media</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Branding</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>Web Development</span><span style={{ border: "1px solid rgba(255,255,255,.12)", background: "rgba(255,255,255,.04)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "#c7d0df" }}>E-commerce</span>
+            <span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>SEO</span><span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>Paid Ads</span><span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>Social Media</span><span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>Branding</span><span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>Web Development</span><span style={{ border: "1px solid var(--line)", background: "var(--surface)", borderRadius: 999, padding: "6px 13px", fontSize: ".75rem", color: "var(--muted)" }}>E-commerce</span>
           </div>
         </div>
         <div style={{ position: "relative", minHeight: 520 }}>
@@ -468,8 +468,8 @@ export default function Home() {
         </div>
         <div style={{ maxWidth: 760, margin: "0 auto" }}>
           {FAQS.map((f) => (
-            <div className="reveal" key={f.q} style={{ marginBottom: 18, padding: "20px 22px", border: "1px solid rgba(255,255,255,.08)", borderRadius: 14, background: "rgba(255,255,255,.02)" }}>
-              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.02rem", marginBottom: 8 }}>{f.q}</h4>
+            <div className="reveal" key={f.q} style={{ marginBottom: 18, padding: "20px 22px", border: "1px solid var(--line)", borderRadius: 14, background: "var(--surface)" }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.02rem", marginBottom: 8 }}>{f.q}</h4>
               <p style={{ color: "var(--muted)", fontSize: ".93rem", lineHeight: 1.65 }}>{f.a}</p>
             </div>
           ))}
@@ -531,7 +531,7 @@ export default function Home() {
               </div>
               <p style={{ fontStyle: "italic", fontSize: "1rem", lineHeight: 1.7, marginBottom: 20 }}>&ldquo;{t.quote}&rdquo;</p>
               <div>
-                <div style={{ color: "#fff", fontWeight: 700, fontFamily: "var(--font-display)" }}>{t.name}</div>
+                <div style={{ color: "var(--text)", fontWeight: 700, fontFamily: "var(--font-display)" }}>{t.name}</div>
                 <div style={{ color: "var(--muted)", fontSize: ".85rem", marginTop: 4 }}>{t.detail}</div>
               </div>
             </div>
@@ -620,7 +620,7 @@ export default function Home() {
                   style={{
                     fontFamily: "var(--font-display)",
                     fontSize: "1.5rem",
-                    color: "#fff",
+                    color: "var(--text)",
                     marginBottom: "12px",
                   }}
                 >
