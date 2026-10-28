@@ -545,3 +545,51 @@ footer a:hover { color: var(--spark); }
 /* small logo used inside service page showcase cards */
 .showcase-logo-thumb { height: 160px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.02); }
 .showcase-logo-thumb img { max-height: 70px; max-width: 70%; object-fit: contain; }
+
+/* ---------- light theme (preview) ---------- */
+[data-theme="light"] {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --line: rgba(13, 21, 38, 0.1);
+  --line-strong: rgba(13, 21, 38, 0.22);
+  --text: #0d1526;
+  --muted: #4b5568;
+  --muted-2: #7c8698;
+  --blue: #2f63e7;
+  --blue-soft: rgba(47, 99, 231, 0.1);
+  --spark: #f59e0b;
+  --spark-soft: rgba(245, 158, 11, 0.14);
+  --spark-glow: rgba(245, 158, 11, 0.35);
+}
+[data-theme="light"] nav { background: rgba(255, 255, 255, 0.85); }
+[data-theme="light"] .bg-grid { opacity: 0.35; }
+[data-theme="light"] .glow-blue { opacity: 0.5; }
+[data-theme="light"] .glow-spark { opacity: 0.5; }
+/* headings / labels that are hardcoded white on adaptive surfaces */
+[data-theme="light"] .logo-text,
+[data-theme="light"] .nav-link:hover,
+[data-theme="light"] .menu-toggle,
+[data-theme="light"] .btn-outline,
+[data-theme="light"] .hero h1,
+[data-theme="light"] .svc-hero h1,
+[data-theme="light"] .about-pillar-card h3,
+[data-theme="light"] .card h3,
+[data-theme="light"] .team-card h4,
+[data-theme="light"] .timeline-item h4,
+[data-theme="light"] .contact-info h3,
+[data-theme="light"] .info-line b,
+[data-theme="light"] .svc-card h3,
+[data-theme="light"] .benefit-chip h4,
+[data-theme="light"] .case-meta div b,
+[data-theme="light"] .showcase-body h4,
+[data-theme="light"] .faq-q,
+[data-theme="light"] .final-cta h2,
+[data-theme="light"] .brand-card-content h4,
+[data-theme="light"] .portfolio-card h4 { color: #0d1526; }
+[data-theme="light"] input,
+[data-theme="light"] textarea,
+[data-theme="light"] select,
+[data-theme="light"] .select-trigger { color: #0d1526; background: #ffffff; }
+/* theme toggle button */
+.theme-toggle { background: none; border: 1px solid var(--line-strong); color: var(--text); width: 40px; height: 40px; border-radius: 10px; font-size: 1.05rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; transition: filter 0.25s, transform 0.25s; }
+.theme-toggle:hover { filter: brightness(1.2); }
