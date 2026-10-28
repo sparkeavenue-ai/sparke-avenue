@@ -17,7 +17,6 @@ export default function AmbientBackground() {
       <div className="bg-grid" />
       <div className="glow-blue" />
       <div className="glow-spark" />
-      <div className="scan-line" />
       {PARTICLES.map((p, i) => (
         <span
           key={i}
