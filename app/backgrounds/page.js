@@ -152,8 +152,8 @@ export default function BackgroundsPreview() {
         @keyframes ringSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         @keyframes pulseDot { 0%,100% { opacity:.5; } 50% { opacity:1; } }
         .bg-opt { min-height: 100vh; padding: 110px 24px 70px; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
-        .bg-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 12px 18px; background: rgba(10,14,23,.88); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,.1); }
-        .bg-nav a { color: #c7d0df; text-decoration: none; font-size: .82rem; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 6px 13px; }
+        .bg-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 12px 18px; background: #0a0e17; border-bottom: 1px solid rgba(255,255,255,.1); }
+        .bg-nav a { color: #e6ebf2; text-decoration: none; font-size: .82rem; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 6px 13px; }
         .bg-nav a:hover { color: #fff; border-color: var(--spark); }
         .bg-nav b { color: #fff; font-size: .9rem; margin-right: 6px; }
       `}</style>
@@ -269,15 +269,15 @@ export default function BackgroundsPreview() {
       {/* OPTION 5 — Rings + Metrics */}
       <section id="opt5" className="bg-opt" style={{ background: "#0a0e17" }}>
         <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
-          <div style={{ position: "absolute", left: "50%", top: "46%", width: 720, height: 720, transform: "translate(-50%,-50%)", borderRadius: "50%", border: "1.5px dashed rgba(255,255,255,.16)" }} />
-          <div style={{ position: "absolute", left: "50%", top: "46%", width: 520, height: 520, transform: "translate(-50%,-50%)", borderRadius: "50%", border: "1.5px dashed rgba(245,158,11,.3)" }} />
-          <div style={{ position: "absolute", left: "50%", top: "46%", width: 720, height: 720, transform: "translate(-50%,-50%)", animation: "ringSpin 60s linear infinite" }}>
+          <div style={{ position: "absolute", left: "50%", top: "46%", width: 620, height: 620, transform: "translate(-50%,-50%)", borderRadius: "50%", border: "1.5px dashed rgba(255,255,255,.16)" }} />
+          <div style={{ position: "absolute", left: "50%", top: "46%", width: 440, height: 440, transform: "translate(-50%,-50%)", borderRadius: "50%", border: "1.5px dashed rgba(245,158,11,.3)" }} />
+          <div style={{ position: "absolute", left: "50%", top: "46%", width: 620, height: 620, transform: "translate(-50%,-50%)" }}>
             <div style={{ position: "absolute", top: -27, left: "50%", marginLeft: -27 }}><SocChip name="instagram" bg="linear-gradient(135deg,#f58529,#dd2a7b,#8134af)" /></div>
             <div style={{ position: "absolute", bottom: -27, left: "50%", marginLeft: -27 }}><SocChip name="facebook" bg="#1877f2" /></div>
             <div style={{ position: "absolute", top: "50%", left: -27, marginTop: -27 }}><SocChip bg="#111" glyph={<TikTokGlyph />} /></div>
             <div style={{ position: "absolute", top: "50%", right: -27, marginTop: -27 }}><SocChip name="linkedin" bg="#0a66c2" /></div>
           </div>
-          <div style={{ position: "absolute", left: "50%", top: "46%", width: 520, height: 520, transform: "translate(-50%,-50%)", animation: "ringSpin 40s linear infinite reverse" }}>
+          <div style={{ position: "absolute", left: "50%", top: "46%", width: 440, height: 440, transform: "translate(-50%,-50%)" }}>
             <div style={{ position: "absolute", top: -23, left: "50%", marginLeft: -23 }}><SocChip name="whatsapp" bg="#25d366" size={46} /></div>
             <div style={{ position: "absolute", bottom: -23, left: "50%", marginLeft: -23 }}><SocChip bg="#ff0000" glyph={<YTGlyph />} size={46} /></div>
             <div style={{ position: "absolute", top: "50%", left: -23, marginTop: -23 }}><SocChip bg="#111" glyph={<XGlyph />} size={46} /></div>
