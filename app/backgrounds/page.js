@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 const OPTIONS = [
+  { id: "opt7", num: "Premium Mix", name: "Option 1 + 2 — Premium", desc: "Option 1 ke floating social icons + Option 2 ke dashboard cards, naye premium gradient base par — deep violet-navy, gold glow, soft texture." },
   { id: "opt1", num: "Option 1", name: "Icon Orbit + Growth Line", desc: "Social icons float around the hero, a soft growth line rises behind. Clean and premium." },
   { id: "opt2", num: "Option 2", name: "Dashboard Cards", desc: "Floating analytics cards — bars, donut, line chart, followers — with social icons on each." },
   { id: "opt3", num: "Option 3", name: "Chart Skyline", desc: "A rising bar chart builds across the bottom, social bubbles float above it." },
@@ -165,6 +166,53 @@ export default function BackgroundsPreview() {
         ))}
         <span style={{ color: "#93a1b7", fontSize: ".78rem", marginLeft: "auto" }}>Live nahi hai — sirf dekhne ke liye</span>
       </nav>
+
+      {/* PREMIUM MIX — Option 1 + 2 (new base background, not the old flat navy) */}
+      <section id="opt7" className="bg-opt" style={{ background: "radial-gradient(1100px 650px at 12% -10%, rgba(245,158,11,.30), transparent 60%), radial-gradient(1000px 620px at 92% -5%, rgba(139,92,246,.34), transparent 62%), radial-gradient(900px 620px at 50% 115%, rgba(56,130,246,.30), transparent 60%), linear-gradient(180deg, #0c0f22 0%, #101430 48%, #0a0d1d 100%)" }}>
+        <div style={{ position: "absolute", inset: 0, overflow: "hidden" }}>
+          <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px)", backgroundSize: "54px 54px", maskImage: "radial-gradient(ellipse 85% 70% at 50% 45%, black, transparent)" }} />
+          <div style={{ position: "absolute", inset: 0, opacity: 0.05, backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E\")" }} />
+          <svg viewBox="0 0 1200 500" preserveAspectRatio="none" style={{ position: "absolute", left: 0, right: 0, bottom: "4%", width: "100%", height: 360, opacity: 0.55 }}>
+            <defs>
+              <linearGradient id="o7g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#f59e0b" stopOpacity=".3" /><stop offset="100%" stopColor="#f59e0b" stopOpacity="0" /></linearGradient>
+              <linearGradient id="o7b" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#38bdf8" stopOpacity=".22" /><stop offset="100%" stopColor="#38bdf8" stopOpacity="0" /></linearGradient>
+            </defs>
+            <path d="M0,420 L150,360 L300,390 L450,280 L600,310 L750,190 L900,220 L1050,110 L1200,60 L1200,500 L0,500 Z" fill="url(#o7g)" />
+            <path d="M0,420 L150,360 L300,390 L450,280 L600,310 L750,190 L900,220 L1050,110 L1200,60" fill="none" stroke="#f59e0b" strokeWidth="3" strokeLinecap="round" />
+            <path d="M0,450 L150,410 L300,425 L450,350 L600,370 L750,280 L900,300 L1050,210 L1200,170" fill="none" stroke="#38bdf8" strokeWidth="2.5" strokeLinecap="round" opacity=".85" />
+            <circle cx="1050" cy="110" r="6" fill="#f59e0b" />
+          </svg>
+          <SocChip name="instagram" bg="linear-gradient(135deg,#f58529,#dd2a7b,#8134af)" style={{ position: "absolute", top: "13%", left: "24%", animation: "floatY 7s ease-in-out infinite" }} />
+          <SocChip name="facebook" bg="#1877f2" style={{ position: "absolute", top: "16%", right: "24%", animation: "floatY2 8s ease-in-out infinite" }} />
+          <SocChip bg="#111" glyph={<TikTokGlyph />} size={46} style={{ position: "absolute", top: "46%", left: "3.5%", animation: "floatY 8.5s ease-in-out infinite" }} />
+          <SocChip bg="#ff0000" glyph={<YTGlyph />} size={46} style={{ position: "absolute", top: "46%", right: "3.5%", animation: "floatY2 8s ease-in-out infinite" }} />
+          <SocChip name="linkedin" bg="#0a66c2" size={46} style={{ position: "absolute", bottom: "30%", left: "20%", animation: "floatY2 9s ease-in-out infinite" }} />
+          <SocChip name="whatsapp" bg="#25d366" size={46} style={{ position: "absolute", bottom: "30%", right: "20%", animation: "floatY 7.5s ease-in-out infinite" }} />
+          <SocChip bg="#111" glyph={<XGlyph />} size={42} style={{ position: "absolute", top: "13%", left: "50%", marginLeft: -21, animation: "floatY 9s ease-in-out infinite" }} />
+          <GlassCard style={{ position: "absolute", top: "15%", left: "4%", width: 205, border: "1px solid rgba(245,158,11,.35)", animation: "bobSlow 8s ease-in-out infinite" }}>
+            <CardTitle icon="chart" text="Monthly Reach" />
+            <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}><b style={{ color: "#fff", fontSize: "1.5rem" }}>128.4K</b><span style={{ color: "#7dd87d", fontSize: ".78rem", fontWeight: 700 }}>+312%</span></div>
+            <MiniBars />
+          </GlassCard>
+          <GlassCard style={{ position: "absolute", top: "18%", right: "4%", width: 185, border: "1px solid rgba(245,158,11,.35)", animation: "bobSlow 9s ease-in-out infinite" }}>
+            <CardTitle icon="target" text="ROAS" />
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}><Donut value={78} /><div><b style={{ color: "#fff", fontSize: "1.3rem", display: "block" }}>4.8x</b><span style={{ color: "#93a1b7", fontSize: ".75rem" }}>avg. return on ad spend</span></div></div>
+          </GlassCard>
+          <GlassCard style={{ position: "absolute", bottom: "11%", left: "5%", width: 225, border: "1px solid rgba(245,158,11,.35)", animation: "bobSlow 10s ease-in-out infinite" }}>
+            <CardTitle icon="trending" text="Leads this month" />
+            <MiniLine id="o7line" stroke="#38bdf8" />
+            <div style={{ display: "flex", justifyContent: "space-between", marginTop: 6 }}><span style={{ color: "#c7d0df", fontSize: ".78rem" }}><b style={{ color: "#fff" }}>1,284</b> leads</span><span style={{ color: "#7dd87d", fontSize: ".78rem", fontWeight: 700 }}>▲ 24%</span></div>
+          </GlassCard>
+          <GlassCard style={{ position: "absolute", bottom: "14%", right: "5%", width: 195, border: "1px solid rgba(245,158,11,.35)", animation: "bobSlow 8.5s ease-in-out infinite" }}>
+            <CardTitle icon="users" text="Followers" />
+            <b style={{ color: "#fff", fontSize: "1.4rem" }}>86.2K</b>
+            <span style={{ color: "#93a1b7", fontSize: ".78rem", display: "block", marginTop: 2 }}>across all platforms</span>
+            <div style={{ display: "flex", gap: 6, marginTop: 10 }}><SocChip name="instagram" size={26} bg="linear-gradient(135deg,#f58529,#dd2a7b,#8134af)" /><SocChip name="linkedin" size={26} bg="#0a66c2" /><SocChip name="whatsapp" size={26} bg="#25d366" /><SocChip bg="#ff0000" size={26} glyph={<YTGlyph size={12} />} /></div>
+          </GlassCard>
+        </div>
+        <OptionLabel {...OPTIONS[0]} />
+        <HeroSample />
+      </section>
 
       {/* OPTION 1 — Icon Orbit + Growth Line */}
       <section id="opt1" className="bg-opt" style={{ background: "#0a0e17" }}>
