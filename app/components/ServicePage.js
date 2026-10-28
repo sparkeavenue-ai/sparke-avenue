@@ -209,7 +209,7 @@ export default function ServicePage({
         <div className="case-study-card reveal">
           <div>
             <span className="eyebrow">{caseStudy.clientName || "Client Success"}</span>
-            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "#fff", marginBottom: 12 }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "var(--text)", marginBottom: 12 }}>
               {caseStudy.businessType}
             </h3>
             {caseStudy.description && (
@@ -234,7 +234,7 @@ export default function ServicePage({
               <span style={{ fontFamily: "var(--font-mono)", fontSize: ".72rem", color: "var(--spark)", textTransform: "uppercase", letterSpacing: 1 }}>
                 Verified Deliverables
               </span>
-              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.1rem", marginTop: 4 }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.1rem", marginTop: 4 }}>
                 {caseStudy.deliverables || "Full-Service Execution"}
               </h4>
             </div>
