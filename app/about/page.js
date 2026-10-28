@@ -54,7 +54,7 @@ export default function AboutPage() {
             <a href="/#portfolio" className="btn-outline">See Our Work</a>
           </div>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 26 }}>
-            <span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🏢 Founded <b style={{ color: '#fff' }}>2026</b></span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>📍 Pakistan · serving worldwide</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🧩 <b style={{ color: '#fff' }}>8</b> services, one team</span>
+            <span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>🏢 Founded <b style={{ color: 'var(--text)' }}>2026</b></span><span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>📍 Pakistan · serving worldwide</span><span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>🧩 <b style={{ color: 'var(--text)' }}>8</b> services, one team</span>
           </div>
         </div>
         <div className="svc-visual reveal">
@@ -113,7 +113,7 @@ export default function AboutPage() {
             Today we unite commercial strategy, premium creative, and conversion-first engineering — helping brands show up with clarity and authority across every digital touchpoint, from Google search to Instagram reels to the checkout page.
           </p>
           <p className="reveal" style={{ color: "var(--muted)", fontSize: "1.05rem", lineHeight: 1.8 }}>
-            Our name says it all. <b style={{ color: "#fff" }}>Create</b> work worth noticing. <b style={{ color: "#fff" }}>Connect</b> it to the right audience. <b style={{ color: "#fff" }}>Grow</b> what matters — your business.
+            Our name says it all. <b style={{ color: "var(--text)" }}>Create</b> work worth noticing. <b style={{ color: "var(--text)" }}>Connect</b> it to the right audience. <b style={{ color: "var(--text)" }}>Grow</b> what matters — your business.
           </p>
         </div>
       </section>
