@@ -41,13 +41,6 @@ a { color: inherit; text-decoration: none; }
 .particle { position: fixed; border-radius: 50%; pointer-events: none; z-index: 1; filter: blur(0.5px); }
 @keyframes floatParticle { 0%,100% { transform: translate(0,0); opacity: .6; } 50% { transform: translate(22px,-40px); opacity: 1; } }
 
-.scan-line {
-  position: fixed; left: 0; right: 0; height: 220px; top: 0;
-  background: linear-gradient(180deg, transparent, rgba(76,124,240,.14), rgba(255,171,64,.05), transparent);
-  pointer-events: none; z-index: 1; animation: scanSweep 7s ease-in-out infinite;
-}
-@keyframes scanSweep { 0% { transform: translateY(-100%); opacity: 0; } 15% { opacity: .9; } 85% { opacity: .9; } 100% { transform: translateY(100vh); opacity: 0; } }
-
 .mouse-glow {
   position: fixed; width: 420px; height: 420px; border-radius: 50%;
   background: radial-gradient(circle, rgba(76,124,240,.14) 0%, transparent 70%);
