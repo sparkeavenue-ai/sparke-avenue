@@ -6,6 +6,21 @@ import Link from "next/link";
 
 export default function SiteNav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [theme, setTheme] = useState("dark");
+
+  useEffect(() => {
+    const saved = window.localStorage.getItem("sa-theme");
+    const initial = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    setTheme(initial);
+    document.documentElement.dataset.theme = initial;
+  }, []);
+
+  const toggleTheme = () => {
+    const next = theme === "dark" ? "light" : "dark";
+    setTheme(next);
+    document.documentElement.dataset.theme = next;
+    window.localStorage.setItem("sa-theme", next);
+  };
   const [navHidden, setNavHidden] = useState(false);
   const [navScrolled, setNavScrolled] = useState(false);
   const lastScroll = useRef(0);
@@ -37,6 +52,7 @@ export default function SiteNav() {
         <li><a href="/blog" className="nav-link" onClick={() => setMenuOpen(false)}>Blog</a></li>
         <li><a href="/contact" className="nav-link nav-cta" onClick={() => setMenuOpen(false)}>Get in Touch</a></li>
       </ul>
+      <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle light or dark theme">{theme === "dark" ? "\u2600" : "\u263E"}</button>
       <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>☰</button>
     </nav>
   );
