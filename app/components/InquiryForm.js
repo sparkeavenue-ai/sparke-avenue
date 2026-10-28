@@ -125,7 +125,7 @@ export default function InquiryForm({
             style={{
               fontFamily: "var(--font-display)",
               fontSize: "1.4rem",
-              color: "#fff",
+              color: "var(--text)",
               marginBottom: "10px",
             }}
           >
