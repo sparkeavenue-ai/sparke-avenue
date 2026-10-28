@@ -78,7 +78,7 @@ export default function ServicesPage() {
             <a href="/about" className="btn-outline">About Us</a>
           </div>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 26 }}>
-            <span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🧩 <b style={{ color: '#fff' }}>8</b> services</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>🎯 Full-funnel approach</span><span style={{ background: "rgba(255,255,255,.05)", border: "1px solid rgba(255,255,255,.1)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "#cbd5e1" }}>📊 Measured in revenue</span>
+            <span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>🧩 <b style={{ color: '#fff' }}>8</b> services</span><span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>🎯 Full-funnel approach</span><span style={{ background: "var(--surface)", border: "1px solid var(--line)", borderRadius: 999, padding: "6px 14px", fontSize: ".76rem", color: "var(--muted)" }}>📊 Measured in revenue</span>
           </div>
         </div>
         <div className="svc-visual reveal">
