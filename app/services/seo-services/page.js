@@ -164,7 +164,7 @@ export default function SeoServicesPage() {
         <div className="case-study-card reveal">
           <div>
             <span className="eyebrow">Azmat Cables &amp; Waheed Jewellers</span>
-            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "#fff", marginBottom: 12 }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "var(--text)", marginBottom: 12 }}>
               B2B Industrial &amp; Local High-Intent Search Authority
             </h3>
             <p style={{ color: "var(--muted)", fontSize: ".95rem", lineHeight: 1.6, marginBottom: 24 }}>
@@ -186,7 +186,7 @@ export default function SeoServicesPage() {
               <span style={{ fontFamily: "var(--font-mono)", fontSize: ".72rem", color: "var(--spark)", textTransform: "uppercase", letterSpacing: 1 }}>
                 SEO Deliverables
               </span>
-              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.05rem", marginTop: 4 }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.05rem", marginTop: 4 }}>
                 Technical Fixes, Catalog Schema &amp; Local Pack
               </h4>
             </div>
