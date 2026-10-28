@@ -27,7 +27,7 @@ function HeroSample() {
       </p>
       <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
         <a href="#opt1" className="btn">Start a Project →</a>
-        <a href="#opt1" className="btn-outline">See Our Work</a>
+        <a href="#opt1" className="btn-outline" style={{ color: "#fff", borderColor: "rgba(255,255,255,.4)" }}>See Our Work</a>
       </div>
       <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap", marginTop: 30 }}>
         {["360° Growth", "8+ Services", "100% Free Consultation"].map((t) => (
