@@ -59,24 +59,24 @@ export default function PortfolioPage() {
               </div>
             </div>
             <div style={{ marginTop: 14, display: "grid", gap: 9 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.07)", borderRadius: 12, padding: "9px 12px" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid var(--line)", borderRadius: 12, padding: "9px 12px" }}>
                 <span style={{ width: 32, height: 32, borderRadius: 9, background: "#38bdf8", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".64rem", color: "#12100c", flexShrink: 0 }}>AC</span>
                 <div>
-                  <div style={{ color: "#fff", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Azmat Cables</div>
+                  <div style={{ color: "var(--text)", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Azmat Cables</div>
                   <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>Industrial & Manufacturing · B2B</div>
                 </div>
                 <span style={{ marginLeft: "auto", color: "var(--spark)", fontSize: ".76rem", fontWeight: 600 }}>Case Study →</span>
-              </div><div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.07)", borderRadius: 12, padding: "9px 12px" }}>
+              </div><div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid var(--line)", borderRadius: 12, padding: "9px 12px" }}>
                 <span style={{ width: 32, height: 32, borderRadius: 9, background: "#fbbf24", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".64rem", color: "#12100c", flexShrink: 0 }}>WJ</span>
                 <div>
-                  <div style={{ color: "#fff", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Waheed Jewellers</div>
+                  <div style={{ color: "var(--text)", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Waheed Jewellers</div>
                   <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>Bridal & Fine Jewelry</div>
                 </div>
                 <span style={{ marginLeft: "auto", color: "var(--spark)", fontSize: ".76rem", fontWeight: 600 }}>Case Study →</span>
-              </div><div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid rgba(255,255,255,.07)", borderRadius: 12, padding: "9px 12px" }}>
+              </div><div style={{ display: "flex", alignItems: "center", gap: 11, border: "1px solid var(--line)", borderRadius: 12, padding: "9px 12px" }}>
                 <span style={{ width: 32, height: 32, borderRadius: 9, background: "#f472b6", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: ".64rem", color: "#12100c", flexShrink: 0 }}>ZC</span>
                 <div>
-                  <div style={{ color: "#fff", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Zarnoor Collection</div>
+                  <div style={{ color: "var(--text)", fontSize: ".84rem", fontWeight: 700, lineHeight: 1.3 }}>Zarnoor Collection</div>
                   <div style={{ color: "var(--muted)", fontSize: ".7rem" }}>Fashion E-Commerce</div>
                 </div>
                 <span style={{ marginLeft: "auto", color: "var(--spark)", fontSize: ".76rem", fontWeight: 600 }}>Case Study →</span>
