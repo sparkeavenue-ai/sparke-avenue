@@ -2,7 +2,7 @@
    PREVIEW ONLY, not linked from the live site. Pick an option number and it
    can be applied to the real homepage. */
 
-import Icon from "./components/Icon";
+import Icon from "../components/Icon";
 
 export const metadata = {
   title: "Background Options — Social & Charts | Sparke Avenue",
