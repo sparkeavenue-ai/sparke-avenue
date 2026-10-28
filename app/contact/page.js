@@ -76,7 +76,7 @@ export default function ContactPage() {
                   {c.value}
                 </a>
               ) : (
-                <p style={{ color: "#fff", fontWeight: 600, fontSize: "1rem" }}>{c.value}</p>
+                <p style={{ color: "var(--text)", fontWeight: 600, fontSize: "1rem" }}>{c.value}</p>
               )}
               <p style={{ marginTop: 8 }}>{c.desc}</p>
             </div>
