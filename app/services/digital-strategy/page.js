@@ -156,7 +156,7 @@ export default function DigitalStrategyPage() {
         <div className="case-study-card reveal">
           <div>
             <span className="eyebrow">FPUL Alliance — Lahore Chamber of Commerce (LCCI)</span>
-            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "#fff", marginBottom: 12 }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", color: "var(--text)", marginBottom: 12 }}>
               Multi-Stakeholder Campaign Strategy &amp; Digital PR
             </h3>
             <p style={{ color: "var(--muted)", fontSize: ".95rem", lineHeight: 1.6, marginBottom: 24 }}>
@@ -178,7 +178,7 @@ export default function DigitalStrategyPage() {
               <span style={{ fontFamily: "var(--font-mono)", fontSize: ".72rem", color: "var(--spark)", textTransform: "uppercase", letterSpacing: 1 }}>
                 Strategic Scope
               </span>
-              <h4 style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: "1.05rem", marginTop: 4 }}>
+              <h4 style={{ fontFamily: "var(--font-display)", color: "var(--text)", fontSize: "1.05rem", marginTop: 4 }}>
                 Executive PR, Digital Media &amp; Voter Outreach
               </h4>
             </div>
